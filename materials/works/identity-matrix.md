@@ -2,23 +2,35 @@
 
 *2019 · Spray paint and stencil · Yaffo*
 
-I was living in Yaffo, working remotely after graduate school, and spending time with people who made art.
-Friends of mine were doing stencil work in the neighborhood.
-I’d bought some spray paint because I wanted to try it, but the figures themselves started in a sketchbook.
+*Identity Matrix* is nine stenciled figures in a three-by-three grid, sprayed in orange, fuchsia, and teal on a white rooftop wall in Yaffo.
+There are three figures: a face in profile, a face seen straight on, and a person at a distance who may be holding balloons.
+Each is painted in two colors.
+Every figure appears in every pairing of colors exactly once, and no figure or pairing repeats in any row or column, as in Sudoku.
 
-I was doodling lines and looking back over a page of chicken scratch when I saw a face in profile, just a nose and a mouth.
-In another set of lines I saw a face looking straight at me.
-A third looked like a person seen from a distance, maybe holding balloons.
-The little stars belonged to that figure.
+The figures came by accident.
+I was filling a sketchbook with lines, almost in a stream of consciousness, and when I looked back over a page of chicken scratch I saw faces in it.
+First a nose and a mouth in profile.
+Then eyes, a nose, and a mouth looking straight at me.
+Then a small person with three stars that might be balloons.
 
-I had three figures and three colors of paint.
-I’d wanted something like a set of primaries and ended up with orange, fuchsia, and teal.
-That gave me three ways to pair the colors.
-In a three-by-three grid I could make each figure in each pair exactly once.
-I worked out an arrangement where you’d find all three figures and all three color pairs in any row or column.
-There was something very pleasing to me about covering all the possibilities in such a small space.
-Once I’d made those decisions, putting the stencils up on the rooftop I shared with my roommates went pretty quickly.
+I was living in Yaffo, working remotely, among friends who all made art.
+Many of them did street art, and stenciling was how people there added to the place they shared, as murals had been in the Berkeley co-ops where I lived as a student.
+I bought spray paint to try it.
+I am no color theorist, so I started from the idea of primaries and turned them a little way around the color wheel.
+
+Now I had three figures and three colors, and I wanted a rule that would make them into something complete.
+Three colors make three pairs.
+Three figures in three pairs make nine combinations, exactly enough to fill a three-by-three grid.
+It pleased me enormously to cover all the ground of combinations in a single tight composition.
+With every decision made in advance, the painting went quickly.
 
 The title came last.
-I’d studied linear algebra, where multiplying a matrix by the identity matrix gives you back the matrix you started with.
-Here I had a matrix made up of three views of a person, and the name made me smile.
+In linear algebra, the identity matrix is the grid of numbers that leaves whatever it multiplies unchanged.
+I had a matrix made of three views of a person, and the name made me smile.
+
+Nobody needs to see the rule.
+I would be happy if someone found the wall pretty and felt calm in front of it.
+The rule is still at work for them: every row and column holds the same amount of each color.
+I brought the same curiosity to *Space Prince* years later, about how much beauty a system of color and form can produce.
+
+[Photograph](https://www.instagram.com/p/B2G_GGfBRI8/)

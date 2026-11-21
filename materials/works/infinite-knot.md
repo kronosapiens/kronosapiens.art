@@ -2,23 +2,28 @@
 
 *2009 · Paint · Casa Zimbabwe, Berkeley*
 
-I painted my first endless knot in a little stairwell at Casa Zimbabwe, a student co-op where I lived as an undergraduate at UC Berkeley.
-There were 124 of us in the house.
-One of the ways students contributed to life in the co-ops was by painting murals, and some of the houses had these elaborate paintings all over the walls.
-I wanted to contribute one myself.
-Since I’d never done it before, I picked a spot a little out of the way and gave it a shot.
+*Infinite Knot* is a Tibetan Buddhist endless knot painted on a yellow door: a single blue band that turns at right angles and passes over and under itself, with no beginning or end.
+I painted it in a stairwell at Casa Zimbabwe, a 124-person student co-op in Berkeley where I lived as an undergraduate.
 
-I’d come across the Tibetan Buddhist endless knot through the Northern California spirituality I was exposed to in Berkeley.
-What drew me to it was the pleasure of looking at it.
-I loved the effect of a band passing over and under itself and how you could keep following it around.
+The co-ops were known for their murals.
+Painting one was a way to add to the life of the house, and I wanted to add something.
+I had come across the endless knot through the Buddhist-inflected spirituality that surrounds a Berkeley student, and I simply found it beautiful.
+I loved following the band over and under, around and back to where it started.
+I had never painted a mural, so I chose a spot out of the way, where a first attempt would not take up a prime wall.
 
-I’d taken some architecture courses, so it felt natural to begin with a measured drawing.
-I measured the space, laid out an even grid of dots, then used a pencil and ruler to draw the band through them, working out where it would pass over and where it would pass under.
-By the time I picked up a brush, I was coloring inside the lines.
-That part took care, and I found it meditative.
-I remember the color as a greenish blue.
+The knot is a mathematical construction, and my architecture classes had taught me to begin with a drawing.
+I measured the door and laid out an even grid of dots.
+Then I ruled the band through them in pencil, following a fixed pattern of over and under.
+After that, painting was coloring inside the lines.
+The one free choice was the color.
 
-I went on to paint a knot in each co-op where I lived for at least a semester.
-I would measure the new space and work the pattern out again.
-One later version was red and gold.
-This photograph is of the first one, in the stairwell where I was still figuring out how to do it.
+That turned out to be the part I loved.
+With the decisions already made, the painting took care and no inspiration, and it became a kind of meditation, which suits the subject.
+I went on to paint a knot in each co-op I lived in, measuring the new space and working the pattern out again.
+One of the later ones was red and gold.
+This photograph is of the first.
+
+Two things from that stairwell have stayed in my work: starting from a rule, and making something for a place I share with other people.
+Years later I am trying to make a game that asks for the same kind of attention.
+
+[Photograph](https://www.dropbox.com/scl/fi/3qd5nsn0az136kqjdjvjj/cz-knot.jpg?rlkey=ww6os8hoa018440ax45riosot&dl=0)

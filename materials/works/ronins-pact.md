@@ -2,28 +2,32 @@
 
 *2025 · Onchain game · Cartridge*
 
-Long before I made *Ronin’s Pact*, I had an idea for a place called Andromeda.
-It would be a bar with a Hellenistic Greek theme, and you’d earn your way in by completing a scavenger hunt in your city.
-I liked imagining who you’d meet once you got there.
-Everyone in the room would know what it took to find the place.
+*Ronin’s Pact* begins with a picture of an empty sword rack that bears your name.
+There are three trials, of technique, wisdom, and spirit: prove you have played one of the community’s games, pass a short quiz, and make a vow after a period of waiting.
+Each trial you complete places a sword on the rack.
+When all three are in place, the background lights up.
+The picture is the whole record of the game.
+It lives on a blockchain and redraws itself as you progress.
 
-Pokémon Go and the Jejune Institute in San Francisco had given me a taste for the idea that an adventure could be going on in the streets you already knew.
-The Explorers Club in New York got me thinking about what a badge could mean after the adventure.
-My work in digital governance made me curious about how such a hunt could run with very little staff.
-For a long time I was stuck on questions as basic as how you could tell that someone had found a clue in person when anybody could post a photo of its QR code.
+I made it in a week or two for a hackathon I was helping organize at Cartridge, where I worked.
+The samurai theme came from Dojo, the company’s game framework.
+I worked with our designer on the artwork and wrote the contract and the game client myself.
+It was a sketch, a way to try one part of an idea I had carried for years.
 
-The chance to try one part of this came at a hackathon I was helping organize for Cartridge.
-People around me were experimenting with representing a game session as a token that other games could use.
-Loot was an influence on that community.
-I wanted to make a badge that was also the save file.
-You could mint it at the start, and the image itself would change as you completed the activities.
-Another game or community could read that same badge and give you access to something of its own.
+The idea was a scavenger hunt that could turn a city into a place of adventure.
+*Pokémon Go* and the Jejune Institute in San Francisco had shown me how a digital layer or a trail of clues could make familiar streets feel enchanted.
+The Explorers Club in New York made me think about what comes afterward.
+I imagined finishing a hard hunt and earning a medallion that opened the door to a bar where everyone in the room had done the same.
+Mine would have been called Andromeda, with a Hellenistic Greek theme.
+I wanted the hunt to run without staff, and for a long time I was stuck on basics, like how to prove someone had found a clue in person when anyone could post its QR code online.
 
-The samurai setting came from Dojo, the framework the hackathon was built around.
-I worked with our designer on the visual assets and wrote the Cairo contract and the game client myself.
-We gave each player a sword rack that filled up as they completed three trials.
-It was a small, mostly single-player sketch I could build in a week or two.
+The Pact let me build one piece of that: the medallion.
+People around me at Cartridge were treating a session of a game as a token that other games could read, an idea inspired by the Loot project.
+So I made a badge that was also the save file.
+You craft it by playing, and another game or a community can read it and let you in.
 
-One player in Discord asked about going to a shrine in Kyoto to mint their Pact.
-I still think about that.
-The game gave them a reason to imagine going somewhere in particular to do something they could have done on their phone anywhere.
+One player asked in Discord whether they could go up to a shrine in Kyoto to mint their Pact.
+They could have done it anywhere, on their phone.
+That was exactly what I was going for: a digital layer adding something to the physical world we already live in.
+
+[Live game](https://ronin.cartridge.gg/) · [Source code](https://github.com/cartridge-gg/ronins-pact)
