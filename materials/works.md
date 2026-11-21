@@ -1,8 +1,10 @@
 # Selected works by Daniel Kronovet
 
+Each title links to a first-person draft for that work’s portfolio page, edited from Daniel’s account of making it.
+
 <!-- The Artist Commons portfolio lists Cairo, Starknet, Next.js, and React for all three digital works. -->
 
-## Space Prince
+## [Space Prince](works/space-prince.md)
 
 *2026, in progress · Digital game*
 
@@ -13,7 +15,7 @@ Each run leaves a star in the prince’s sky.
 
 [Source code](https://github.com/kronosapiens/SpacePrince)
 
-## The Lost Temple Adventure
+## [The Lost Temple Adventure](works/the-lost-temple-adventure.md)
 
 *2025 · Onchain game and in-person treasure hunt*
 
@@ -24,7 +26,7 @@ After playing the treasure hunt, their adventure map became a permanent digital 
 
 [Live game](https://adventure.cartridge.gg/) · [Source code](https://github.com/cartridge-gg/adventure) · [Gameplay video](https://www.dropbox.com/scl/fi/13p1rf6j225kacf64u5ed/Lost_Temple_demo.MOV?rlkey=5hdq7lfprevt3ibux014hhujc&dl=0) · [Performance retrospective](https://github.com/cartridge-gg/adventure/blob/main/retro/RETRO.md)
 
-## Ronin’s Pact
+## [Ronin’s Pact](works/ronins-pact.md)
 
 *2025 · Onchain game*
 
@@ -35,7 +37,7 @@ When all three swords are in place, the background lights up.
 
 [Live game](https://ronin.cartridge.gg/) · [Source code](https://github.com/cartridge-gg/ronins-pact)
 
-## Identity Matrix
+## [Identity Matrix](works/identity-matrix.md)
 
 *2019 · Spray paint and stencil*
 
@@ -45,7 +47,7 @@ In the photograph, shadows from overhead wires cut diagonally across the grid.
 
 [Photograph](https://www.instagram.com/p/B2G_GGfBRI8/)
 
-## Infinite Knot
+## [Infinite Knot](works/infinite-knot.md)
 
 *2009 · Paint*
 
