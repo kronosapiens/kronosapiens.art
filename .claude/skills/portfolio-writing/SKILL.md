@@ -41,6 +41,7 @@ Mistakes that cost rounds on the statement:
 
 - Plain and declarative, with the works as the subjects of the sentences ("write more declaratively. I think it's implied that this is my stuff").
 - No "I" ("you are writing about me, not as me"), and his name "a couple of times, but not every paragraph".
+- After the full name in an opening sentence, he is "Daniel", not "Kronovet" ("I actually don't like seeing my last name like that -- my first name might land a bit softer", 2026-11-23).
 - Not mannered or curatorial ("I'm not at the Whitney, and I don't want this to come off as pretentious"), so no paragraph openers that stage a reveal.
 - No life narrative or scene setting: leave out dates, cities, and where he lived unless the detail is evidence for a claim.
 - Formats are not the subject ("my work isn't about murals or about games as much as those are formats that I've worked in"), so openers stay general.
@@ -101,6 +102,17 @@ Corrections already found:
 - The game clients are Vite and React, not Next.js.
 - Astra, which generated the *Space Prince* music, is an OpenAI model.
 - *Space Prince* is a local prototype, so do not say it runs on a blockchain.
+- *Ronin’s Pact*, read from the chain on 2026-11-23:
+  - The token contract is `0x235b9453d243abcea79c9838bfcf5dfcd3933ce23535722cffc3bf135eaa3b4` on Starknet mainnet (`contracts/manifest_mainnet.json` in the game repo), viewable at `https://starkscan.co/contract/<address>`.
+  - 38 Pacts were minted between 2025-10-27 and 2025-11-01, 20 have all three trials complete, and 9 have none.
+    Token 0 is a test, so the page says 37 players (his decision, 2026-11-23).
+  - Daniel’s own Pact is token 1, username `kronosapiens`, with all three trials complete.
+    Its picture, as the contract draws it, is saved at `materials/works/ronins-pact.svg`.
+  - The wait before the vow is 24 hours on mainnet, confirmed from the live contract.
+  - The contract draws the whole picture itself, about 30 kilobytes when complete, and the finished glow is magenta, not the gold in the spec.
+  - The technique trial checks for a token from Loot Survivor 2, Pistols at Dawn, or Blobert, not that the player played.
+  - The drawings are by Alex Cohen; Daniel reduced their file size to make them deployable.
+  - The Kyoto player asked to take their vow at a medieval shrine (his refinement, 2026-11-23), where the interview says they asked to mint there.
 
 ## Checks before showing a draft
 
@@ -110,7 +122,8 @@ tail -n +3 "$f" | wc -w        # real word count, against the agreed budget
 # avoid list; "Explorers Club" on the Ronin's Pact page is a false hit
 grep -n -i -E "explor|investigat|interrogat|reconceptual|deconstruct|symboliz|unpack|liminal|immersive|urgent|relational|mystical|nuanced|provocative|invited to|blurs the|dialogue between|challenges traditional|speaks to broader" "$f"
 grep -n -w -E "I|my|me" "$f"   # should print nothing
-grep -c "Kronovet" "$f"        # lines that carry his name
+grep -c "Daniel" "$f"          # lines that carry his name
+grep -n "Kronovet" "$f" | grep -v "Daniel Kronovet"  # surname alone; should print nothing
 ```
 
 - Verify each fact against the sources above.
