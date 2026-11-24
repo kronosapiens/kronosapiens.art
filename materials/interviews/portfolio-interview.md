@@ -2,7 +2,7 @@
 
 Daniel Kronovet on painting a knot in a Berkeley stairwell, running a scavenger hunt in Buenos Aires, and playing a game as yourself.
 
-*The questions from Codex have been shortened, and Kronovet’s answers have been lightly edited for grammar and length.*
+*The questions from Codex have been shortened, and Daniel’s answers have been lightly edited for grammar and length.*
 *[Read the verbatim conversation.](portfolio-conversation.md)*
 
 ## Infinite Knot
@@ -45,7 +45,7 @@ I’d have to go rummaging through them to get the photos out.
 **Codex** — Where did the signs in *Identity Matrix* come from?
 How did you get the title?
 
-**Kronovet** — *Identity Matrix* came a lot later.
+**Daniel** — *Identity Matrix* came a lot later.
 I was living in Yaffo, in Israel/Palestine, in a community of creative people.
 Everyone was making art.
 I’d finished graduate school and was earlyish career, working remotely for a British crypto company.
@@ -97,7 +97,7 @@ I thought the name *Identity Matrix* was very cute.
 
 **Codex** — What was the occasion for *Ronin’s Pact*, and where did the sword rack come from?
 
-**Kronovet** — *Ronin’s Pact* was really a sketch, more a proof of concept of some ideas than something meant to be a complete work in itself.
+**Daniel** — *Ronin’s Pact* was really a sketch, more a proof of concept of some ideas than something meant to be a complete work in itself.
 By that time I’d accumulated a lot of influences.
 I’d been inspired by *Pokémon Go* and the idea of digital technology creating an enchanted, augmented reality above and beyond what the world itself could offer.
 The Jejune Institute in San Francisco was an influence.
@@ -140,7 +140,7 @@ I thought that was a very nice opportunity.
 I worked with my teammate, our designer, to develop the visual assets.
 I coded up the Cairo NFT contract and the client myself.
 People really enjoyed it.
-I think there’s a screenshot of someone in Discord asking if they could go up to some shrine in Kyoto to finish the transaction to mint the Pact.
+I think there’s a screenshot of someone in Discord asking if they could go up to some shrine in Kyoto to take their vow.
 I thought that was very cute.
 That was exactly what I was going for, the idea that this digital layer is adding something to the physical world we’re already living in.
 
@@ -149,7 +149,7 @@ That was exactly what I was going for, the idea that this digital layer is addin
 **Codex** — What could you try in *The Lost Temple Adventure* that you’d only sketched in *Ronin’s Pact*?
 What do you remember from Devconnect?
 
-**Kronovet** — *The Lost Temple Adventure* was basically the same idea pushed further.
+**Daniel** — *The Lost Temple Adventure* was basically the same idea pushed further.
 I was still working at Cartridge, maybe a month or two after *Ronin’s Pact*.
 We’d been asked to contribute something to Devconnect, the Ethereum conference, and I thought, why don’t we pitch a scavenger hunt?
 
@@ -235,7 +235,7 @@ It let me push these ideas I’d had for so long much further, get another rep i
 **Codex** — How did *Space Prince* begin?
 When did a birth chart strike you as something you could play?
 
-**Kronovet** — *Space Prince* came kind of out of nowhere, a few months after *The Lost Temple Adventure*.
+**Daniel** — *Space Prince* came kind of out of nowhere, a few months after *The Lost Temple Adventure*.
 I’d been immersed in the Starknet gaming community and influenced by a game called *Loot Survivor 2* that Provable Games made.
 I thought it was phenomenal.
 It was a fully onchain roguelike where you were an adventurer, leveling up your stats and fighting monsters, and it was very difficult.
@@ -283,14 +283,14 @@ I’d like it to become almost a teaching tool, with enough of an isomorphism be
 **Codex** — Say someone sees the person with balloons in *Identity Matrix* and never notices how the grid works.
 Would that feel complete to you?
 
-**Kronovet** — It’s not essential to me that the viewer appreciate the intricate construction of the work for it to be good.
+**Daniel** — It’s not essential to me that the viewer appreciate the intricate construction of the work for it to be good.
 I’d be very happy if the viewer thought it was pretty and pleasant and wanted to spend time with it, and it made them feel calm.
 I’d want an art critic, or someone looking at it with a critical eye, to appreciate the construction as part of the artistry and craft.
 If someone discovers the intricacies, that’s very pleasant, but I don’t need every viewer to notice them right away.
 
 **Codex** — Is there a particular save file or game character from your own life that made you think about where those hours go?
 
-**Kronovet** — That idea came out of the interaction of other ideas I was being exposed to.
+**Daniel** — That idea came out of the interaction of other ideas I was being exposed to.
 There was the crypto idea of proof of work, how you can capture effort in a digital artifact, and the generative artworks I was seeing in the Art Blocks community.
 I remember Matt DesLauriers’s *Meridian* was very inspiring to me, how beautiful the images could be coming out of such a small piece of code.
 I was interested in creating images onchain as provenanced artworks, and in the save file as a place where value goes.
@@ -312,12 +312,12 @@ Gameplay could be that kind of proof of work where, instead of a blockchain hash
 
 **Codex** — When a player looks back at a star from a run of *Space Prince*, what do you hope they remember?
 
-**Kronovet** — My highest aspiration would be for them to feel that the time they spent with the game was meaningful, that they had actually grown through the experience, and the star was an objective reflection of that growth.
+**Daniel** — My highest aspiration would be for them to feel that the time they spent with the game was meaningful, that they had actually grown through the experience, and the star was an objective reflection of that growth.
 Something they could point to, and point others to, and say, “This shows who I am.”
 
 **Codex** — What does growth mean to you here?
 
-**Kronovet** — One of the big influences on how I think about the gameplay is Hermann Hesse’s novel *Siddhartha*.
+**Daniel** — One of the big influences on how I think about the gameplay is Hermann Hesse’s novel *Siddhartha*.
 The main character begins life as this sort of prince who leaves the privileged world he knew to go on a journey of enlightenment.
 First he becomes an ascetic monk, then a worldly man in the city, then he lives by a river as a boatman.
 None of those experiences is the enlightenment he seeks.
@@ -334,7 +334,7 @@ Someone could point to a star and think, yeah, I really navigated that situation
 
 **Codex** — Does the attention you hope a player brings to an encounter feel related to the attention you gave the knot?
 
-**Kronovet** — There’s probably some truth to that, even though it wasn’t something I was thinking about explicitly.
+**Daniel** — There’s probably some truth to that, even though it wasn’t something I was thinking about explicitly.
 There’s the calm, meditative state for me making the knots, and for a player thinking about how they respond to their situations.
 For someone to attain a meditative and attentive state would be a goal.
 I think that’s a line you could draw.
@@ -343,14 +343,14 @@ I think that’s a line you could draw.
 
 **Codex** — What appeals to you about making something people can stumble across in the course of their day?
 
-**Kronovet** — It links to the idea of the augmented reality game and of enchanting the environment with magic.
+**Daniel** — It links to the idea of the augmented reality game and of enchanting the environment with magic.
 Things you discover along your way that are portals to a larger adventure are a core part of the worldbuilding or aesthetic I’m going for.
 Maybe another way to put it is, if anywhere you go there might be something you can stumble across, then everywhere you go the entire world becomes a site of potential adventure.
 Even where the game is not actually present.
 
 **Codex** — Can you remember being on the receiving end of that feeling?
 
-**Kronovet** — One Halloween when I was an undergraduate, some housemates and I went to San Francisco for an elaborate public zombie game.
+**Daniel** — One Halloween when I was an undergraduate, some housemates and I went to San Francisco for an elaborate public zombie game.
 You started off human and there were some zombies, and you had to go from the ferry terminal all the way to Civic Center on foot or public transit.
 You were in public space, and the zombies would try to catch the humans and turn them into zombies.
 As the game progressed there were more zombies and fewer humans.
@@ -364,7 +364,7 @@ I just remembered how that felt.
 
 **Codex** — What did playing in a real city add?
 
-**Kronovet** — On a game course every detail would have been added by the organizers, so it would have been more flat and sparse.
+**Daniel** — On a game course every detail would have been added by the organizers, so it would have been more flat and sparse.
 In a city the entire city becomes a game board full of depth and nuance and complexity that no designer could create, because it’s an actual place.
 Otherwise you’re playing laser tag, which is fun.
 I think this is more interesting.
@@ -373,7 +373,7 @@ I think this is more interesting.
 
 **Codex** — What does it mean to play *Space Prince* with the chart from the moment you were born?
 
-**Kronovet** — “Playing as yourself” in the context of an astrology game is very important to me.
+**Daniel** — “Playing as yourself” in the context of an astrology game is very important to me.
 Your learning of the game, your development of intuition for how to act, is grounded directly in your actual chart.
 If you ever got your chart read, or looked into it in an astrology context, you’d understand more intuitively what those dynamics are expressing, maybe even more than if someone read your chart to you.
 Letting people experience their chart through gameplay adds so much to having a flat chart interpreted by an astrologer.
@@ -382,7 +382,7 @@ A generic chart would lose a lot of that impact.
 
 **Codex** — What part of a chart would you most like a player to understand intuitively?
 
-**Kronovet** — A good basic goal is to give the player a feeling for all of their planets, almost as characters.
+**Daniel** — A good basic goal is to give the player a feeling for all of their planets, almost as characters.
 Most people know about their Sun sign and their Moon sign and their rising, but rarely think about the Sun and Moon part of that sentence.
 They think, I’m an Aquarius or I’m a Scorpio.
 Your chart is about your planets.
@@ -394,7 +394,7 @@ That’s what my chart is about.
 
 **Codex** — What does that shift from “I am” to “I have” mean to you personally?
 
-**Kronovet** — As I’ve gotten older and hopefully more mature, I’ve learned more about taking accountability for my actions and being aware of my impact on others.
+**Daniel** — As I’ve gotten older and hopefully more mature, I’ve learned more about taking accountability for my actions and being aware of my impact on others.
 It’s kind of nice to shift from “I am an Aquarius,” this positive mythic identity of an Aquarian creative that’s just abstract in the world, to “I’m made of planets and drives.”
 Some of them motivate me this way and that way.
 Sometimes I act in a way that’s beneficial to others, and sometimes in a way that’s destructive or careless.
@@ -402,7 +402,7 @@ Maintaining awareness of that over some abstract ideal identity is a nice way to
 
 **Codex** — Could you value a star because it reminded you of a time you’d been careless?
 
-**Kronovet** — Certainly, why not?
+**Daniel** — Certainly, why not?
 Every run puts a star in the sky.
 Higher Light, a brighter star, gives people something to strive for.
 Even a run that ended very poorly, with a dim star, is a memory of that experience.
@@ -411,14 +411,14 @@ Even a run that ended very poorly, with a dim star, is a memory of that experien
 
 **Codex** — Which of your other works would you show someone alongside *Space Prince*?
 
-**Kronovet** — I’d show *Identity Matrix*.
+**Daniel** — I’d show *Identity Matrix*.
 There’s the same curiosity about systemization of color and form and the emergent aesthetic beauty that can come out of that.
 I tried to apply those same ideas to the visual design of *Space Prince* as well as to the mechanistic design.
 A lot of the same underlying interests are being re-expressed in this more complex form.
 
 **Codex** — Where does that thinking show up in the design of the chart?
 
-**Kronovet** — One of the big tensions was wanting ornate visual embellishments to give it a feeling of refinement, almost jewelry, while wanting it to be functional as a game board.
+**Daniel** — One of the big tensions was wanting ornate visual embellishments to give it a feeling of refinement, almost jewelry, while wanting it to be functional as a game board.
 The information you need to play has to be very legible.
 Those two things pushed in opposite directions, and working through that has led to the form of the chart as it is today.
 I think it’s in pretty decent shape.
@@ -427,7 +427,7 @@ It’s come together at a level of quality I’d accept, modulo a few open quest
 
 **Codex** — If you could put headphones on me for ten seconds of *Space Prince*, what would you play?
 
-**Kronovet** — The main theme is just so good.
+**Daniel** — The main theme is just so good.
 Similar to the visuals, the sound design revolved around creating a system out of musical fundamentals.
 Basically, most video game music is in a single key because you need to be able to sequence tracks arbitrarily.
 In a symphony you can have movements in different keys, but in a game you need to be able to drop songs in based on gameplay.
@@ -444,13 +444,13 @@ We changed some of the samples, and I think we ended up getting somewhere quite 
 
 **Codex** — Which planetary theme would you play second?
 
-**Kronovet** — Mars would be an okay choice.
+**Daniel** — Mars would be an okay choice.
 They’re all of pretty even quality, but Mars is the most obviously aggressive, so it’d be the easiest for someone to hear casually and clock the style distinction.
 I’d really put all seven on the site and let people tab through them.
 
 **Codex** — Once you know a choice works, what tells you it’s beautiful?
 
-**Kronovet** — It kind of bottoms out, at the end of the day, with my own aesthetic sense and sensory experience.
+**Daniel** — It kind of bottoms out, at the end of the day, with my own aesthetic sense and sensory experience.
 Sometimes I feel almost like a medieval astronomer.
 I’m using all these systems and frameworks to try to navigate this huge creative space.
 And at the end you just have to use your eyes and your ears and your heart and say, does this feel good?

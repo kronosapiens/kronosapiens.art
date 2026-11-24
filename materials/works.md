@@ -11,9 +11,8 @@ The game clients are Vite and React, not Next.js.
 
 *2026, in progress · Digital game*
 
-A game you play as a birth chart.
-A time and a place fix the positions of the Sun, the Moon, and five planets, and that chart is the player’s character sheet, game board, and save file.
-Every run leaves a star in the player’s sky.
+A game a person plays as themselves, through their birth chart.
+The chart is the board and the save file, and every run leaves a star in the sky above it.
 
 ## [The Lost Temple Adventure](works/the-lost-temple-adventure.md)
 
@@ -27,8 +26,8 @@ Each solution drew another stretch of the route on a digital map that was theirs
 
 *2025 · Onchain game*
 
-A digital badge that records three trials of technique, wisdom, and spirit.
-It starts as an empty sword rack bearing the player’s name, and each completed trial places a sword on it.
+A digital collectible that a player crafts through three trials of technique, wisdom, and spirit.
+It starts as a picture of an empty sword rack with the player’s name under it, and each trial places a sword on the rack.
 
 ## [Identity Matrix](works/identity-matrix.md)
 
@@ -39,7 +38,7 @@ No figure and no pairing repeats in any row or column of the three-by-three grid
 
 ## [Infinite Knot](works/infinite-knot.md)
 
-*2009 · Paint*
+*2009–2012 · Paint*
 
-A Tibetan Buddhist endless knot painted on a door in a Berkeley student co-op.
-The band was ruled onto a measured grid before any paint went on.
+Three murals of the Tibetan Buddhist endless knot, painted in three student co-op houses.
+Each band was ruled through a measured grid of dots before any paint went on.

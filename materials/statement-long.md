@@ -4,7 +4,7 @@ Daniel Kronovet is a visual and digital artist whose work shows the ways that ae
 A few rules do the arranging, and a person gets a feel for the system without having it explained.
 The digital work uses technology to enchant the real world and leave a person with something worth keeping.
 
-Two murals are the simplest case.
+The murals are the simplest case.
 *Infinite Knot* follows a borrowed rule, the Tibetan Buddhist endless knot, ruled through a grid of dots.
 *Identity Matrix* follows a rule of its own: three stenciled figures in three pairings of color, all nine combinations in one grid, with no figure or pairing repeated in any row or column.
 The reference points are Sol LeWitt, who ran simple elements through every combination, and Kandinsky and Hilma af Klint for color and shape.
@@ -17,7 +17,7 @@ Once there might be something to find anywhere, people start looking everywhere,
 People put dozens of hours into a game, and the only record is a save file that nobody looks at.
 Where does that energy go?
 Generative artists like Matt DesLauriers and Erick Calderon write programs that give each collector a one-of-a-kind image, chosen by a random number.
-Kronovet’s addition is to let play decide the image, so that the save file is the artwork.
+Daniel’s addition is to let play decide the image, so that the save file is the artwork.
 In *Ronin’s Pact* it is a sword rack that gains a sword for each trial, and in *The Lost Temple Adventure* a map that draws its route as puzzles are solved.
 Both are kept on a blockchain, so the picture belongs to the player.
 
