@@ -11,7 +11,7 @@ The reference points are Sol LeWitt, who ran simple elements through every combi
 
 In the digital work, the model is augmented reality: Pokémon Go made an ordinary street feel as if it were hiding something.
 *The Lost Temple Adventure*, a treasure hunt, did the same for a conference venue.
-A player of *Ronin’s Pact*, which can be played anywhere, asked to start theirs at a shrine in Kyoto.
+A player of *Ronin’s Pact*, which can be played anywhere, asked to take their vow at a medieval shrine in Kyoto.
 Once there might be something to find anywhere, people start looking everywhere, even where the game is not.
 
 People put dozens of hours into a game, and the only record is a save file that nobody looks at.

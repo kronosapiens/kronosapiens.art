@@ -39,7 +39,7 @@ He suggested Mars as an easy comparison because its aggression is audible right 
 In Berkeley the house murals offered a way to contribute to the life of the co-op.
 In Yaffo friends were making stencil art, and Daniel tried it on the rooftop he shared with his roommates.
 In the games, the invitation could run the other way.
-A player imagined going to a Kyoto shrine to mint a digital badge, and the Devconnect flyers drew players across a conference venue to solve puzzles together.
+A player asked to take their vow for a digital badge at a medieval shrine in Kyoto, and the Devconnect flyers drew players across a conference venue to solve puzzles together.
 
 One Halloween as a Berkeley undergraduate, Daniel joined a public zombie game in San Francisco with two housemates.
 Players traveled from the ferry terminal toward Civic Center on foot or by public transit.
@@ -88,7 +88,8 @@ Every run leaves a star, including the runs in which the player would now make d
 ## Material to revisit
 
 - Daniel has looked for photographs of the later Berkeley knots and thinks some may be on old phones.
-- He remembers a Discord message about minting the Pact at a shrine in Kyoto and may be able to find the screenshot.
+- He remembers a Discord message from a player asking to take their Pact vow at a medieval shrine in Kyoto, and may be able to find the screenshot.
+  The interview says the player wanted to mint there; the vow is his later refinement (2026-11-23).
 - He has photographs of people solving the Devconnect puzzles together.
 - He has the January 2026 *Space Prince* design conversation and may want to return to it later.
   His opening prompt included the sentence “One very nice implication of this design is that people can play as themselves, as famous historical figures, etc.”
