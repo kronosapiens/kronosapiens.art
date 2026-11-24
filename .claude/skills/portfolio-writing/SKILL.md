@@ -99,6 +99,19 @@ The game repositories and the treasure hunt retrospective outrank his recollecti
 Corrections already found:
 
 - *The Lost Temple Adventure* had five levels (two onchain games, three physical puzzles), 106 valid maps, 26 players who completed at least one level, and 4 who finished.
+  Read from the contracts and the mint data (`retro/nft_data.csv`) on 2026-11-23:
+  - The work is “the experience of the player and the memories they create and they keep”, and the rest “constructs and scaffolds that experience” (his words, 2026-11-23).
+  - The map contract is `0x1aec82a183d97504e8ee6c3cf1f7c3f7b9aad291b5f467df33441493884ac4b` on Starknet mainnet (`contracts/manifest_mainnet.json` in the game repo).
+  - The five waypoints sit on the corners of a pentagon, and each map shuffles which level goes on which corner.
+    The shuffle as written reaches only 60 orderings, so the 118 minted maps share 60 routes.
+    The page says the waypoints are shuffled, not that every map is different (his decision, 2026-11-23).
+  - Levels had to be solved in order, and the first is the Super Nintendo puzzle.
+    The 4 finishers exclude his own map and a teammate’s.
+  - Daniel’s own map is token 1, username `kronosapiens`, with all five levels complete, saved at `materials/assets/the-lost-temple-adventure/map.svg`.
+    Starkscan refuses a result this large, so it was taken from the game’s leaderboard page, which shows each map as the contract returns it.
+  - The stored drawings are about 45 kilobytes and the finished map is about 100, because the contract reuses them.
+  - The drawings are by Alex Cohen.
+  - The photographs in the game repo’s `retro/` folder carry GPS coordinates, so copies in `materials/assets/` have their location data removed.
 - The game clients are Vite and React, not Next.js.
 - Astra, which generated the *Space Prince* music, is an OpenAI model.
 - *Space Prince* is a local prototype, so do not say it runs on a blockchain.
