@@ -20,4 +20,4 @@ This one is a matrix about a person.
 
 *Space Prince* applies the same thinking to a larger system, where the rules of a game show a player their birth chart.
 
-[Photograph](https://www.instagram.com/p/B2G_GGfBRI8/)
+[Photograph](../assets/identity-matrix/identity-matrix.jpg)

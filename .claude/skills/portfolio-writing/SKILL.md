@@ -107,7 +107,7 @@ Corrections already found:
   - 38 Pacts were minted between 2025-10-27 and 2025-11-01, 20 have all three trials complete, and 9 have none.
     Token 0 is a test, so the page says 37 players (his decision, 2026-11-23).
   - Daniel’s own Pact is token 1, username `kronosapiens`, with all three trials complete.
-    Its picture, as the contract draws it, is saved at `materials/works/ronins-pact.svg`.
+    Its picture, as the contract draws it, is saved at `materials/assets/ronins-pact/pact.svg`.
   - The wait before the vow is 24 hours on mainnet, confirmed from the live contract.
   - The contract draws the whole picture itself, about 30 kilobytes when complete, and the finished glow is magenta, not the gold in the spec.
   - The technique trial checks for a token from Loot Survivor 2, Pistols at Dawn, or Blobert, not that the player played.
