@@ -2,7 +2,10 @@
 
 Each title links to that work’s page, which has the full description and the documentation links.
 
-<!-- The Artist Commons portfolio lists Cairo, Starknet, Next.js, and React for all three digital works. -->
+<!--
+The Artist Commons portfolio lists Cairo, Starknet, Next.js, and React for all three digital works.
+The game clients are Vite and React, not Next.js.
+-->
 
 ## [Space Prince](works/space-prince.md)
 

@@ -27,6 +27,8 @@ He asked to "discuss the statement in the chat before you draft, so we can align
 
 Take one piece at a time.
 For the work pages he asked to go through "each one at a time", giving each its own round of questions.
+On a work page, ask first what the work is.
+His answer has changed the page every time.
 
 Mistakes that cost rounds on the statement:
 
@@ -51,7 +53,7 @@ Mistakes that cost rounds on the statement:
 - Prefer a concrete noun to an adjective that asks for trust: "jewelry", not "magical".
 - No attributed quotes from him, though a question of his can be posed directly, as "Where does that energy go?" is.
 - Technical things in plain words, as if to someone outside the field, with blockchain named once.
-- Astrology is described neutrally as a symbolic system, with no claim that it works or does not.
+- A belief system that a work draws on, such as astrology, is described neutrally as a symbolic system, with no claim that it works or does not.
 - One thought per sentence, with varied sentence length.
 
 Two pairs from the first draft and the approved text:
@@ -81,58 +83,29 @@ Two pairs from the first draft and the approved text:
   - Kandinsky and Hilma af Klint, for color and shape.
   - Matt DesLauriers and Erick Calderon, for generative art: a short program that gives each collector a one-of-a-kind image.
   - Pokémon Go, for augmented reality, though his own games are laid over real places without being augmented reality.
-  - The Jejune Institute, *Loot Survivor 2*, Holst, Hesse’s *Siddhartha*, and the *Space Prince* score belong on the work pages, not in the statement.
+  - A reference that bears on one work belongs on that work’s page, not in the statement.
 - When he says to use a sentence he wrote, use it verbatim.
   If it conflicts with a rule here or in the guides, say so in one sentence and leave the choice to him.
-- As of 2026-11-21 the pages in `materials/works/` are in an older first-person voice.
-  Use them for facts, not as voice models.
+- The pages in `materials/works/` are in the approved voice as of 2026-11-23, and are the models for a work page.
 
 ## Facts
 
-The game repositories and the treasure hunt retrospective outrank his recollection in the interviews.
-
+- Facts about a work come from its own sources: the repository and documents linked from its page in `materials/works/`, and the technical details kept at the end of that file.
 - In this repo: `materials/interviews/portfolio-conversation.md` (verbatim), `materials/interviews/portfolio-interview.md` (edited), `materials/practice-notes.md` (his phrases and connections).
-- *Space Prince*: `~/code/personal/SpacePrince` (`README.md`, `docs/intent.md`, `docs/presentation/MUSIC.md`, `img/screenshots/`).
-- *The Lost Temple Adventure*: `~/code/cartridge/jam/adventure` (`retro/RETRO.md`).
-- *Ronin’s Pact*: `~/code/cartridge/jam/ronins-pact` (`spec/SPEC.md`, `client/public/pact.png`).
-
-Corrections already found:
-
-- *The Lost Temple Adventure* had five levels (two onchain games, three physical puzzles), 106 valid maps, 26 players who completed at least one level, and 4 who finished.
-  Read from the contracts and the mint data (`retro/nft_data.csv`) on 2026-11-23:
-  - The work is “the experience of the player and the memories they create and they keep”, and the rest “constructs and scaffolds that experience” (his words, 2026-11-23).
-  - The map contract is `0x1aec82a183d97504e8ee6c3cf1f7c3f7b9aad291b5f467df33441493884ac4b` on Starknet mainnet (`contracts/manifest_mainnet.json` in the game repo).
-  - The five waypoints sit on the corners of a pentagon, and each map shuffles which level goes on which corner.
-    The shuffle as written reaches only 60 orderings, so the 118 minted maps share 60 routes.
-    The page says the waypoints are shuffled, not that every map is different (his decision, 2026-11-23).
-  - Levels had to be solved in order, and the first is the Super Nintendo puzzle.
-    The 4 finishers exclude his own map and a teammate’s.
-  - Daniel’s own map is token 1, username `kronosapiens`, with all five levels complete, saved at `materials/assets/the-lost-temple-adventure/map.svg`.
-    Starkscan refuses a result this large, so it was taken from the game’s leaderboard page, which shows each map as the contract returns it.
-  - The stored drawings are about 45 kilobytes and the finished map is about 100, because the contract reuses them.
-  - The drawings are by Alex Cohen.
-  - The photographs in the game repo’s `retro/` folder carry GPS coordinates, so copies in `materials/assets/` have their location data removed.
-- The game clients are Vite and React, not Next.js.
-- Astra, which generated the *Space Prince* music, is an OpenAI model.
-- *Space Prince* is a local prototype, so do not say it runs on a blockchain.
-- *Ronin’s Pact*, read from the chain on 2026-11-23:
-  - The token contract is `0x235b9453d243abcea79c9838bfcf5dfcd3933ce23535722cffc3bf135eaa3b4` on Starknet mainnet (`contracts/manifest_mainnet.json` in the game repo), viewable at `https://starkscan.co/contract/<address>`.
-  - 38 Pacts were minted between 2025-10-27 and 2025-11-01, 20 have all three trials complete, and 9 have none.
-    Token 0 is a test, so the page says 37 players (his decision, 2026-11-23).
-  - Daniel’s own Pact is token 1, username `kronosapiens`, with all three trials complete.
-    Its picture, as the contract draws it, is saved at `materials/assets/ronins-pact/pact.svg`.
-  - The wait before the vow is 24 hours on mainnet, confirmed from the live contract.
-  - The contract draws the whole picture itself, about 30 kilobytes when complete, and the finished glow is magenta, not the gold in the spec.
-  - The technique trial checks for a token from Loot Survivor 2, Pistols at Dawn, or Blobert, not that the player played.
-  - The drawings are by Alex Cohen; Daniel reduced their file size to make them deployable.
-  - The Kyoto player asked to take their vow at a medieval shrine (his refinement, 2026-11-23), where the interview says they asked to mint there.
+- A work’s repository, its deployed contracts, and any written retrospective outrank his recollection in the interviews.
+  What is deployed outranks a spec.
+- Check a claim of “every”, “unique”, or “first” against the code or the data before it goes on a page.
+- Say what a work in progress does today, and describe what is planned as planned.
+- Keep facts and decisions about a single work out of this skill.
+  They belong with the work: on its page, or in the hidden “Technical details” comment at the end of its file, which keeps contract addresses and similar details for the archive.
 
 ## Checks before showing a draft
 
 ```sh
 f=materials/statement-long.md  # the file being checked
-tail -n +3 "$f" | wc -w        # real word count, against the agreed budget
-# avoid list; "Explorers Club" on the Ronin's Pact page is a false hit
+# real word count of the prose, without comments, the title, the date line, and the link row
+perl -0pe 's/<!--.*?-->//gs' "$f" | grep -v -E '^(#|\*[0-9]{4}|\[)' | wc -w
+# avoid list; a proper name or a literal use is a false hit
 grep -n -i -E "explor|investigat|interrogat|reconceptual|deconstruct|symboliz|unpack|liminal|immersive|urgent|relational|mystical|nuanced|provocative|invited to|blurs the|dialogue between|challenges traditional|speaks to broader" "$f"
 grep -n -w -E "I|my|me" "$f"   # should print nothing
 grep -c "Daniel" "$f"          # lines that carry his name
@@ -143,6 +116,7 @@ grep -n "Kronovet" "$f" | grep -v "Daniel Kronovet"  # surname alone; should pri
 - In markdown files, one sentence per line, American spelling, and curly apostrophes as the existing files use.
 - Write the draft to its file and also show it in chat as flowing paragraphs.
 - Report the real word count, and after a cut, list what went.
+- Check a photograph for location data, and remove it, before adding it to `materials/assets/`.
 
 ## The Artist Commons guides
 

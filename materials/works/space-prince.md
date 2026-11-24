@@ -29,3 +29,16 @@ The player keeps the picture: the save file turned art object.
 A dim star is a memory too.
 
 [Preview picture](../assets/space-prince/prince-preview.png) · [Playable demo](https://space-prince.vercel.app) · [Website](https://spaceprince.xyz) · [Source code](https://github.com/kronosapiens/SpacePrince)
+
+<!--
+Technical details, read from the game repository and the demo on 2026-11-23.
+
+The demo is a React, Vite, and TypeScript client that draws everything as SVG and keeps its state in the browser.
+Charts come from a real ephemeris.
+The game is designed for Starknet: the chart-derivation contract exists, and the game contracts do not yet.
+About a dollar a run is the intended price, not a measured cost.
+A run crosses up to seven maps, each generated as the player reaches it.
+The 720 scenes are five for each of the 144 pairings of house and sign.
+The preview picture comes from the demo’s /token screen, which draws a made-up Prince on each load, so it is not a record of play.
+Hesse’s Siddhartha is a Brahmin’s son, not a prince, so the page says “a man”.
+-->
