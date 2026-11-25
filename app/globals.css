@@ -1,0 +1,142 @@
+/* The site is black on white. Each work page takes its colors from the work. */
+:root {
+  --ground: #fff;
+  --ink: #000;
+  --line: #000;
+  --link: var(--line);
+
+  --small: 0.9375rem;
+  --body: 1.1875rem;
+  --large: clamp(1.75rem, 1.1rem + 2.2vw, 2.75rem);
+
+  --gutter: clamp(1.25rem, 3vw, 2.5rem);
+  --header: 3.5rem;
+  --measure: 30.5rem;
+}
+
+:root:has([data-work="space-prince"]) {
+  --ground: #0b0a0f;
+  --ink: #e6e1d6;
+  --line: #ac915c;
+  color-scheme: dark;
+}
+
+:root:has([data-work="the-lost-temple-adventure"]) {
+  --ground: #fef3c7;
+  --ink: #78350f;
+  --line: #92400e;
+  --link: #15803d;
+}
+
+:root:has([data-work="ronins-pact"]) {
+  --ground: #23148a;
+  --ink: #8cdeeb;
+  --line: #e9283a;
+  color-scheme: dark;
+}
+
+:root:has([data-work="identity-matrix"]) {
+  --ground: #eaeeef;
+  --ink: #000;
+  --line: #114c6a;
+  --link: #8e2b5a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: var(--body);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-size: inherit;
+  font-weight: 500;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--link);
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.2em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 3px;
+}
+
+.site-header,
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: var(--gutter);
+}
+
+.site-header {
+  height: var(--header);
+}
+
+.site-header a {
+  text-decoration: none;
+}
+
+.site-header a:hover {
+  text-decoration: underline;
+}
+
+.site-name {
+  font-weight: 500;
+}
+
+.site-footer {
+  padding-block: 2rem;
+  font-size: var(--small);
+}
+
+.meta {
+  font-size: var(--small);
+}
+
+.meta span {
+  display: block;
+}
+
+.prose {
+  max-width: var(--measure);
+}
+
+.prose p + p {
+  margin-top: 0.9em;
+}
