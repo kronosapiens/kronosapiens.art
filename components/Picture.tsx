@@ -17,13 +17,13 @@ type Props = {
 /**
  * A picture at its own proportions.
  * It is as large as its column and the `--cap` height allow,
- * and a photograph never displays wider than its pixels.
+ * and it never displays wider than its pixels.
  */
 export function Picture({ picture, sizes, href, preload }: Props) {
   const { image, alt } = picture;
   const style = {
     "--ratio": image.width / image.height,
-    "--pixels": image.src.endsWith(".svg") ? undefined : `${image.width}px`,
+    "--pixels": `${image.width}px`,
   } as CSSProperties;
   const img = <Image src={image} alt={alt} sizes={sizes} preload={preload} />;
 
