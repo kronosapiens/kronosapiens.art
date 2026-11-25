@@ -5,6 +5,7 @@ import { Picture } from "@/components/Picture";
 import { Prose } from "@/components/Prose";
 import { getPage, getWorks, type WorkSummary } from "@/lib/content";
 import { hero, pictures } from "@/lib/pictures";
+import { site } from "@/lib/site";
 import styles from "./page.module.css";
 
 const ratio = (slug: string) => {
@@ -36,6 +37,7 @@ export default function Home() {
 
   return (
     <main>
+      <h1 className="visually-hidden">{site.name}</h1>
       <div className={styles.hero} style={{ "--sum": sum } as CSSProperties}>
         {pair.map((work) => (
           <article

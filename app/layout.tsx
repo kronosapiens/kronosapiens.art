@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Jost as SiteFont } from "next/font/google";
 import Link from "next/link";
 import { getPage } from "@/lib/content";
+import { site } from "@/lib/site";
 import "./globals.css";
 
 const font = SiteFont({
@@ -11,9 +12,10 @@ const font = SiteFont({
   variable: "--font-sans",
 });
 
-const name = "Daniel Kronovet";
+const { name } = site;
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: { default: name, template: `%s | ${name}` },
   description: getPage("statement.md").description,
 };
