@@ -1,0 +1,9 @@
+.page {
+  padding: clamp(3rem, 10vh, 6rem) var(--gutter) 5rem;
+}
+
+.title {
+  margin-bottom: 2.5rem;
+  font-size: var(--large);
+  line-height: 1.1;
+}

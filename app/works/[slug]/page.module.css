@@ -1,0 +1,33 @@
+.page {
+  --cap: 85svh;
+
+  padding: 0 var(--gutter) 5rem;
+}
+
+.title {
+  margin: 2rem 0 0.5rem;
+  font-size: var(--large);
+  line-height: 1.1;
+}
+
+.prose {
+  margin-top: 2.5rem;
+}
+
+.more {
+  display: flex;
+  gap: 1rem;
+  max-width: 48rem;
+  margin-top: 3.5rem;
+}
+
+.links {
+  max-width: var(--measure);
+  margin-top: 3.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.links li + li {
+  margin-top: 0.25rem;
+}

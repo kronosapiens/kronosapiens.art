@@ -46,3 +46,6 @@ next-env.d.ts
 .eslintcache
 .turbo
 .swc
+
+# pnpm store, when pnpm keeps it in the project
+.pnpm-store
