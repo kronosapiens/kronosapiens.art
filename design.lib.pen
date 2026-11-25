@@ -132,9 +132,55 @@
         },
         {
           "type": "frame",
+          "id": "JWeSu",
+          "name": "Link",
+          "context": "The a rule in app/globals.css: a link in the colour of its text, underlined in $link. The underline is a 1px rule in $link, 4px under the baseline, in a frame of zero height. An instance sets the text, and its weight where the code sets one.",
+          "reusable": true,
+          "layout": "vertical",
+          "gap": -5,
+          "padding": [
+            0,
+            0,
+            5,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "W0w8U",
+              "name": "Text",
+              "fill": "$ink",
+              "content": "Link",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-sans",
+              "fontSize": "$body",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "GhzmV",
+              "name": "Underline",
+              "width": "fill_container",
+              "height": 0,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "A5yc7",
+                  "name": "Rule",
+                  "fill": "$link",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "ltaPE",
           "name": "Label",
-          "context": "The Label function in app/page.tsx, styled in app/page.module.css: a work's title link, Meta, and blurb. Drawn 304 wide, as beside a picture (.work .label). A margin in the code is padding on the frame that owns it. The link's underline is a 1px rule in $link, 4px under the baseline, in a frame of zero height.",
+          "context": "The Label function in app/page.tsx, styled in app/page.module.css: a work's title (a Link instance at weight 500), Meta, and blurb. Drawn 304 wide, as beside a picture (.work .label). A margin in the code is padding on the frame that owns it.",
           "reusable": true,
           "width": 304,
           "layout": "vertical",
@@ -152,48 +198,16 @@
               ],
               "children": [
                 {
-                  "type": "frame",
-                  "id": "y3mhb",
+                  "id": "ARGGp",
+                  "type": "ref",
+                  "ref": "JWeSu",
                   "name": "Link",
-                  "layout": "vertical",
-                  "gap": -5,
-                  "padding": [
-                    0,
-                    0,
-                    5,
-                    0
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "xhJC7",
-                      "name": "Text",
-                      "fill": "$ink",
+                  "descendants": {
+                    "W0w8U": {
                       "content": "Work title",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$font-sans",
-                      "fontSize": "$body",
                       "fontWeight": "500"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "ARi2U",
-                      "name": "Underline",
-                      "width": "fill_container",
-                      "height": 0,
-                      "layout": "vertical",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "UVoQL",
-                          "name": "Rule",
-                          "fill": "$link",
-                          "width": "fill_container",
-                          "height": 1
-                        }
-                      ]
                     }
-                  ]
+                  }
                 }
               ]
             },

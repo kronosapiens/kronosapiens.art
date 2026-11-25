@@ -52,3 +52,6 @@ next-env.d.ts
 
 # pen's whole-file export, regenerated per run and never tracked
 design.png
+
+# the site's pages drawn in Pen, a local working file
+design.pen
