@@ -1,0 +1,674 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "GpQQs",
+      "x": 0,
+      "y": 0,
+      "name": "Components",
+      "fill": "$ground",
+      "layout": "vertical",
+      "gap": 64,
+      "padding": 64,
+      "children": [
+        {
+          "type": "frame",
+          "id": "DPyrY",
+          "name": "site-header",
+          "context": "The .site-header markup in app/layout.tsx, styled in app/globals.css. Its links are underlined on hover only.",
+          "reusable": true,
+          "width": 1440,
+          "height": 56,
+          "padding": [
+            0,
+            "$gutter"
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "yAUUX",
+              "name": "site-name",
+              "fill": "$ink",
+              "content": "Daniel Kronovet",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-sans",
+              "fontSize": "$body",
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "jYlsh",
+              "name": "About",
+              "fill": "$ink",
+              "content": "About",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-sans",
+              "fontSize": "$body",
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GHrnp",
+          "name": "site-footer",
+          "context": "The .site-footer markup in app/layout.tsx, styled in app/globals.css.",
+          "reusable": true,
+          "width": 1440,
+          "padding": [
+            32,
+            "$gutter"
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "I4FPUr",
+              "name": "Copyright",
+              "fill": "$ink",
+              "content": "© Daniel Kronovet",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-sans",
+              "fontSize": "$small",
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RW8kP",
+          "name": "Meta",
+          "context": "components/Meta.tsx: a work's year and medium, each on its own line (.meta in app/globals.css).",
+          "reusable": true,
+          "width": 304,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "R9HCS",
+              "name": "Year",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "2025",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-sans",
+              "fontSize": "$small",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "EDFAD",
+              "name": "Medium",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Medium",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-sans",
+              "fontSize": "$small",
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SVloK",
+          "name": "Picture",
+          "context": "components/Picture.tsx: a picture at its own proportions. An instance sets the image, and a width and height in that picture's ratio.",
+          "reusable": true,
+          "width": 480,
+          "height": 480,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "materials/assets/identity-matrix/identity-matrix.jpg",
+            "mode": "cover"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "ltaPE",
+          "name": "Label",
+          "context": "The Label function in app/page.tsx, styled in app/page.module.css: a work's title link, Meta, and blurb. Drawn 304 wide, as beside a picture (.work .label). A margin in the code is padding on the frame that owns it. The link's underline is a 1px rule in $link, 4px under the baseline, in a frame of zero height.",
+          "reusable": true,
+          "width": 304,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Y8ukK0",
+              "name": "Title",
+              "layout": "vertical",
+              "padding": [
+                0,
+                0,
+                4,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y3mhb",
+                  "name": "Link",
+                  "layout": "vertical",
+                  "gap": -5,
+                  "padding": [
+                    0,
+                    0,
+                    5,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xhJC7",
+                      "name": "Text",
+                      "fill": "$ink",
+                      "content": "Work title",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": "$body",
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ARi2U",
+                      "name": "Underline",
+                      "width": "fill_container",
+                      "height": 0,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "UVoQL",
+                          "name": "Rule",
+                          "fill": "$link",
+                          "width": "fill_container",
+                          "height": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "AXMJ3",
+              "type": "ref",
+              "ref": "RW8kP",
+              "name": "Meta",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "kLnPc",
+              "name": "Blurb",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tEyfB",
+                  "name": "Paragraph",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A sentence or two about the work.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": "$body",
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d5qz3x",
+          "name": "Prose",
+          "context": "The .prose rule in app/globals.css: paragraphs at $body, $measure wide, 0.9em apart.",
+          "reusable": true,
+          "width": 488,
+          "layout": "vertical",
+          "gap": 17.1,
+          "children": [
+            {
+              "type": "text",
+              "id": "Ws00a",
+              "name": "Paragraph 1",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A first paragraph about the work, long enough to wrap onto a second line at this width.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-sans",
+              "fontSize": "$body",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ubOLZ",
+              "name": "Paragraph 2",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A second paragraph, to show the space between paragraphs.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-sans",
+              "fontSize": "$body",
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Y7UzKM",
+      "x": 1728,
+      "y": 0,
+      "name": "Works",
+      "layout": "vertical",
+      "gap": 40,
+      "children": [
+        {
+          "type": "frame",
+          "id": "S59iX",
+          "name": "default",
+          "theme": {
+            "work": "default"
+          },
+          "width": 1440,
+          "fill": "$ground",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "UAv3V",
+              "type": "ref",
+              "ref": "DPyrY",
+              "name": "site-header"
+            },
+            {
+              "type": "frame",
+              "id": "aGyuq",
+              "name": "Body",
+              "width": "fill_container",
+              "gap": 80,
+              "padding": "$gutter",
+              "children": [
+                {
+                  "id": "QslfG",
+                  "type": "ref",
+                  "ref": "ltaPE",
+                  "name": "Label"
+                },
+                {
+                  "id": "p8B1MJ",
+                  "type": "ref",
+                  "ref": "d5qz3x",
+                  "name": "Prose"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "w12UV",
+          "name": "space-prince",
+          "theme": {
+            "work": "space-prince"
+          },
+          "width": 1440,
+          "fill": "$ground",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "GvVax",
+              "type": "ref",
+              "ref": "DPyrY",
+              "name": "site-header"
+            },
+            {
+              "type": "frame",
+              "id": "s2VJX",
+              "name": "Body",
+              "width": "fill_container",
+              "gap": 80,
+              "padding": "$gutter",
+              "children": [
+                {
+                  "id": "OlgA5",
+                  "type": "ref",
+                  "ref": "ltaPE",
+                  "name": "Label"
+                },
+                {
+                  "id": "Kmmzh",
+                  "type": "ref",
+                  "ref": "d5qz3x",
+                  "name": "Prose"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HSNF6",
+          "name": "the-lost-temple-adventure",
+          "theme": {
+            "work": "the-lost-temple-adventure"
+          },
+          "width": 1440,
+          "fill": "$ground",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "pZW1w",
+              "type": "ref",
+              "ref": "DPyrY",
+              "name": "site-header"
+            },
+            {
+              "type": "frame",
+              "id": "yXlBz",
+              "name": "Body",
+              "width": "fill_container",
+              "gap": 80,
+              "padding": "$gutter",
+              "children": [
+                {
+                  "id": "g59EM",
+                  "type": "ref",
+                  "ref": "ltaPE",
+                  "name": "Label"
+                },
+                {
+                  "id": "zsaht",
+                  "type": "ref",
+                  "ref": "d5qz3x",
+                  "name": "Prose"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "COcz0",
+          "name": "ronins-pact",
+          "theme": {
+            "work": "ronins-pact"
+          },
+          "width": 1440,
+          "fill": "$ground",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "D3Z4x",
+              "type": "ref",
+              "ref": "DPyrY",
+              "name": "site-header"
+            },
+            {
+              "type": "frame",
+              "id": "ydAAp",
+              "name": "Body",
+              "width": "fill_container",
+              "gap": 80,
+              "padding": "$gutter",
+              "children": [
+                {
+                  "id": "JeuXb",
+                  "type": "ref",
+                  "ref": "ltaPE",
+                  "name": "Label"
+                },
+                {
+                  "id": "cmqoE",
+                  "type": "ref",
+                  "ref": "d5qz3x",
+                  "name": "Prose"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qw0Q9",
+          "name": "identity-matrix",
+          "theme": {
+            "work": "identity-matrix"
+          },
+          "width": 1440,
+          "fill": "$ground",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "LJsSI",
+              "type": "ref",
+              "ref": "DPyrY",
+              "name": "site-header"
+            },
+            {
+              "type": "frame",
+              "id": "KQvfV",
+              "name": "Body",
+              "width": "fill_container",
+              "gap": 80,
+              "padding": "$gutter",
+              "children": [
+                {
+                  "id": "Y8Lhb",
+                  "type": "ref",
+                  "ref": "ltaPE",
+                  "name": "Label"
+                },
+                {
+                  "id": "dgw3G",
+                  "type": "ref",
+                  "ref": "d5qz3x",
+                  "name": "Prose"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "work": [
+      "default",
+      "space-prince",
+      "the-lost-temple-adventure",
+      "ronins-pact",
+      "identity-matrix"
+    ]
+  },
+  "variables": {
+    "ground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#ffffff",
+          "theme": {
+            "work": "default"
+          }
+        },
+        {
+          "value": "#0b0a0f",
+          "theme": {
+            "work": "space-prince"
+          }
+        },
+        {
+          "value": "#fef3c7",
+          "theme": {
+            "work": "the-lost-temple-adventure"
+          }
+        },
+        {
+          "value": "#23148a",
+          "theme": {
+            "work": "ronins-pact"
+          }
+        },
+        {
+          "value": "#eaeeef",
+          "theme": {
+            "work": "identity-matrix"
+          }
+        }
+      ]
+    },
+    "ink": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000000",
+          "theme": {
+            "work": "default"
+          }
+        },
+        {
+          "value": "#e6e1d6",
+          "theme": {
+            "work": "space-prince"
+          }
+        },
+        {
+          "value": "#78350f",
+          "theme": {
+            "work": "the-lost-temple-adventure"
+          }
+        },
+        {
+          "value": "#8cdeeb",
+          "theme": {
+            "work": "ronins-pact"
+          }
+        },
+        {
+          "value": "#000000",
+          "theme": {
+            "work": "identity-matrix"
+          }
+        }
+      ]
+    },
+    "line": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000000",
+          "theme": {
+            "work": "default"
+          }
+        },
+        {
+          "value": "#ac915c",
+          "theme": {
+            "work": "space-prince"
+          }
+        },
+        {
+          "value": "#92400e",
+          "theme": {
+            "work": "the-lost-temple-adventure"
+          }
+        },
+        {
+          "value": "#e9283a",
+          "theme": {
+            "work": "ronins-pact"
+          }
+        },
+        {
+          "value": "#114c6a",
+          "theme": {
+            "work": "identity-matrix"
+          }
+        }
+      ]
+    },
+    "link": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000000",
+          "theme": {
+            "work": "default"
+          }
+        },
+        {
+          "value": "#ac915c",
+          "theme": {
+            "work": "space-prince"
+          }
+        },
+        {
+          "value": "#15803d",
+          "theme": {
+            "work": "the-lost-temple-adventure"
+          }
+        },
+        {
+          "value": "#e9283a",
+          "theme": {
+            "work": "ronins-pact"
+          }
+        },
+        {
+          "value": "#8e2b5a",
+          "theme": {
+            "work": "identity-matrix"
+          }
+        }
+      ]
+    },
+    "small": {
+      "type": "number",
+      "value": 15
+    },
+    "body": {
+      "type": "number",
+      "value": 19
+    },
+    "large": {
+      "type": "number",
+      "value": 44
+    },
+    "gutter": {
+      "type": "number",
+      "value": 40
+    },
+    "header": {
+      "type": "number",
+      "value": 56
+    },
+    "measure": {
+      "type": "number",
+      "value": 488
+    },
+    "font-sans": {
+      "type": "string",
+      "value": "Jost"
+    }
+  },
+  "fileToken": "82f4ec5e-ab68-42d1-ab83-fb8e084cd663"
+}

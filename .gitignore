@@ -49,3 +49,6 @@ next-env.d.ts
 
 # pnpm store, when pnpm keeps it in the project
 .pnpm-store
+
+# pen's whole-file export, regenerated per run and never tracked
+design.png

@@ -20,6 +20,7 @@
     "unist-util-visit": "^5.2.0"
   },
   "devDependencies": {
+    "@pen.dev/cli": "^0.3.18",
     "@types/mdast": "^4.0.4",
     "@types/node": "^20",
     "@types/react": "^19",
