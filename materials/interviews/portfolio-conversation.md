@@ -66,7 +66,7 @@ I’ll read the application, pull the works and descriptions into the Markdown i
 
 ## Codex
 
-The application lists five works, from *Infinite Knot* (2009) to *Space Prince* (2026, in progress). It gives titles, media, and documentation links. I’m using the linked photographs and project materials for the descriptions, and I’ll mark the artist statement as a new draft.
+The application lists five works, from *Endless Knot* (2009) to *Space Prince* (2026, in progress). It gives titles, media, and documentation links. I’m using the linked photographs and project materials for the descriptions, and I’ll mark the artist statement as a new draft.
 
 ## Codex
 
@@ -75,10 +75,10 @@ I added all five works and preserved all nine documentation links from your [Art
 [Works](/Users/kronosapiens/code/personal/kronosapiens.art/materials/works.md) now has a short description of each piece, grounded in the photographs and game materials.
 
 The [artist statement](/Users/kronosapiens/code/personal/kronosapiens.art/materials/artist-statement.md) is a new draft in your voice.
-It starts with a connection I see between two works. In *Infinite Knot*, someone can follow the painted band with their eye. In *The Lost Temple Adventure*, someone has to play to find out where the line on their map goes.
+It starts with a connection I see between two works. In *Endless Knot*, someone can follow the painted band with their eye. In *The Lost Temple Adventure*, someone has to play to find out where the line on their map goes.
 
 **Does that connection feel like part of your practice?**
-I’d like to hear what drew you to make *Infinite Knot* in the first place. That memory would give us something in your own words to build the statement around.
+I’d like to hear what drew you to make *Endless Knot* in the first place. That memory would give us something in your own words to build the statement around.
 
 ## Daniel Kronovet
 
@@ -120,7 +120,7 @@ The portfolio gives me a clear sense of what it’s like to encounter the work. 
 
 Your statement names two interests. The first, how aesthetics emerge from rules, already comes through in the portfolio. In *Space Prince*, a time and place determine a chart, the chart governs an encounter, and the encounter leaves a star. “Meaning and value” is more open. The map in *Lost Temple* gives us a concrete way to talk about it. What interested you about a player keeping the map after the hunt was over? Your answer could deepen the work description while the statement stays concise. [Artist statement](/Users/kronosapiens/code/personal/kronosapiens.art/materials/statement.md)
 
-**I’d settle the selection before polishing the prose.** These five works were chosen for an emerging-artist application. With three recent games leading and two earlier physical pieces closing, I read the portfolio as a game-centered practice with a history in painting and stencil work. The descriptions of *Identity Matrix* and *Infinite Knot* tell me what the photographs show. A detail about how you devised the signs or why you painted on that particular door could give either piece a different weight.
+**I’d settle the selection before polishing the prose.** These five works were chosen for an emerging-artist application. With three recent games leading and two earlier physical pieces closing, I read the portfolio as a game-centered practice with a history in painting and stencil work. The descriptions of *Identity Matrix* and *Endless Knot* tell me what the photographs show. A detail about how you devised the signs or why you painted on that particular door could give either piece a different weight.
 
 Is that game-centered reading how you want someone to understand your practice today? And is there a work you left out of the application that would change that impression?
 
@@ -138,7 +138,7 @@ I’d start by talking through all five works, one at a time. Once we’ve heard
 
 The Artist Commons portfolio guide suggests looking for questions and methods that recur across different media. The statement workshop gives us a way to find them. Have someone look at a piece and ask the artist about it, then listen for the phrases the artist naturally uses. The session on influences adds a good follow-up: when you name something that influenced you, trace it to a particular choice you made. [Portfolio guide](</Users/kronosapiens/Dropbox/Documents/Art/Artist Commons/113.How_to_Build_a_Portfolio.pdf>) · [Statement workshop](</Users/kronosapiens/Dropbox/Documents/Art/Artist Commons/140.Artist_Commons-How_to_Write_an_Artist_Statement-Part3-Haiver-Slides.pdf>) · [Session on influences](</Users/kronosapiens/Dropbox/Documents/Art/Artist Commons/129.Nothing_is_Original-Takeaway__Document.pdf>)
 
-**Let’s start with *Infinite Knot*.** Take me back to 2009 and that yellow door. How did you come to paint that particular knot there? I’d especially like to hear where the form came from for you and what held your attention about it at the time.
+**Let’s start with *Endless Knot*.** Take me back to 2009 and that yellow door. How did you come to paint that particular knot there? I’d especially like to hear where the form came from for you and what held your attention about it at the time.
 
 ## Daniel Kronovet
 
@@ -166,7 +166,7 @@ It's a mathematical linear algebra concept. It's very, very bread and butter but
 
 The word you were reaching for is *pareidolia*. I’d keep your own account of that moment, though. You looked down at a page of “chicken scratch” and saw a nose and a mouth. Once you pointed out the person who might be holding balloons, the three stars in the photograph became legible to me in a different way. That’s something only you could have told me.
 
-I hear two connections with *Infinite Knot*. One is social. In both Berkeley and Yaffo, people around you made art on the surfaces they shared, and you wanted to take part. The other is the pleasure of working out a pattern, though that pleasure came at different moments. With the knot, you already loved the form, and painting it became meditative. With *Identity Matrix*, you discovered the figures by doodling, then devised a rule for arranging them. **“Completely cover all of the ground of combinations in a single tight composition”** says precisely what pleased you about the finished grid. The title came afterward as a joke that could hold both the mathematics and the person. I’d keep that playfulness in the telling.
+I hear two connections with *Endless Knot*. One is social. In both Berkeley and Yaffo, people around you made art on the surfaces they shared, and you wanted to take part. The other is the pleasure of working out a pattern, though that pleasure came at different moments. With the knot, you already loved the form, and painting it became meditative. With *Identity Matrix*, you discovered the figures by doodling, then devised a rule for arranging them. **“Completely cover all of the ground of combinations in a single tight composition”** says precisely what pleased you about the finished grid. The title came afterward as a joke that could hold both the mathematics and the person. I’d keep that playfulness in the telling.
 
 **How did *Ronin’s Pact* begin?** I’m curious what the occasion called for and which part first caught your imagination. In particular, where did the idea of a sword rack that fills as someone plays come from?
 
@@ -212,7 +212,7 @@ I think *Space Prince* gives us a way to look back across all five works. At Ber
 
 Each work gives it a slightly different meaning.
 
-- **Infinite Knot.** The form came from Tibetan Buddhist imagery, the method from architectural drafting, and the occasion from co-op mural culture. You knew what the finished knot would look like. What you discovered by painting it was how meditative it felt to make.
+- **Endless Knot.** The form came from Tibetan Buddhist imagery, the method from architectural drafting, and the occasion from co-op mural culture. You knew what the finished knot would look like. What you discovered by painting it was how meditative it felt to make.
 - **Identity Matrix.** The figures came first, by chance, while you were doodling. The pleasure of the grid was your discovery that nine positions were enough to exhaust the combinations you’d chosen. The title came last, when linear algebra supplied a joke about three views of a person.
 - **Ronin’s Pact.** Pokémon Go, the Jejune Institute, and the Explorers Club fed a desire to make ordinary places feel charged with adventure. The hackathon gave you a small part of that ambition to try. The person who wanted to mint at a Kyoto shrine supplied a piece of the experience you hadn’t designed.
 - **The Lost Temple Adventure.** Here you could ask, in your words, **“Where does that energy go?”** Calderón’s generative art helped you imagine a map unique to each player. The conference hunts you’d done with friends gave you a reason for someone to care about *their* map once the day was over.
@@ -274,7 +274,7 @@ One of the big influences I've taken for thinking about the gameplay of Space Pr
 
 What you’ve drawn from *Siddhartha* is an idea about how someone learns. The time by the river means something to Siddhartha because of the lives he’s already tried to lead. That adds something to your idea of learning astrology through play. A player might learn to read a chart and still have to exercise judgment about what to do when that chart meets another. You’ve described that as an ambition you’re still working toward, and I’d keep it in those terms when you talk about the piece.
 
-I’d bring this back to *Infinite Knot* for a moment. When you described painting it, you said that once the drawing was in place, following the form became meditative. With *Space Prince*, you’re trying to make something in which another person can practice a kind of attention that matters in your own life. **Does the attention you remember giving the knot feel related to the attention you hope a player brings to an encounter?** I’m curious how those two experiences feel to you from the inside.
+I’d bring this back to *Endless Knot* for a moment. When you described painting it, you said that once the drawing was in place, following the form became meditative. With *Space Prince*, you’re trying to make something in which another person can practice a kind of attention that matters in your own life. **Does the attention you remember giving the knot feel related to the attention you hope a player brings to an encounter?** I’m curious how those two experiences feel to you from the inside.
 
 ## Daniel Kronovet
 
@@ -282,9 +282,9 @@ That's an interesting thought, and I would say that there's probably some truth 
 
 ## Codex
 
-I’d keep that as a connection you recognize in hindsight. When you painted *Infinite Knot*, what you knew was that you loved the form, wanted to contribute something to the house, and found the painting meditative. Years later, in *Space Prince*, you’re deliberately trying to give a player room to pause and respond with care. Knowing how it felt to paint the knot helps me understand why that ambition matters to you now.
+I’d keep that as a connection you recognize in hindsight. When you painted *Endless Knot*, what you knew was that you loved the form, wanted to contribute something to the house, and found the painting meditative. Years later, in *Space Prince*, you’re deliberately trying to give a player room to pause and respond with care. Knowing how it felt to paint the knot helps me understand why that ambition matters to you now.
 
-I think the five works can tell a coherent story through connections like that. *Infinite Knot* and *Identity Matrix* both grew out of wanting to add something beautiful to a place you shared. *Identity Matrix* and *The Lost Temple Adventure* share your pleasure in how much variety a few rules can produce. *Ronin’s Pact* gave you a first chance to make a badge someone could shape through play. *Lost Temple* took that idea into a physical gathering, and *Space Prince* asks whether such an object could hold something as personal as a moment of good judgment. Each connection can be specific to the works it joins.
+I think the five works can tell a coherent story through connections like that. *Endless Knot* and *Identity Matrix* both grew out of wanting to add something beautiful to a place you shared. *Identity Matrix* and *The Lost Temple Adventure* share your pleasure in how much variety a few rules can produce. *Ronin’s Pact* gave you a first chance to make a badge someone could shape through play. *Lost Temple* took that idea into a physical gathering, and *Space Prince* asks whether such an object could hold something as personal as a moment of good judgment. Each connection can be specific to the works it joins.
 
 One motivation I’d like to hear more about is **making something for people who are already around you**. I keep picturing the stairwell at Casa Zimbabwe and, years later, those little “Can you find the lost temple?” flyers around Devconnect. What appeals to you about putting something in a place people already inhabit and letting them come across it in the course of their day?
 
