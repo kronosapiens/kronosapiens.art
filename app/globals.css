@@ -125,6 +125,16 @@ a {
   font-size: var(--small);
 }
 
+/* Text for screen readers and search engines only. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 .meta {
   font-size: var(--small);
 }
