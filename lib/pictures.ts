@@ -1,6 +1,6 @@
 import type { StaticImageData } from "next/image";
 import identityMatrix from "@/materials/assets/identity-matrix/identity-matrix.jpg";
-import knot from "@/materials/assets/infinite-knot/cz-knot.jpg";
+import knot from "@/materials/assets/infinite-knot/knot-caz.jpg";
 import pact from "@/materials/assets/ronins-pact/pact.png";
 import prince from "@/materials/assets/space-prince/prince-preview.png";
 import players from "@/materials/assets/the-lost-temple-adventure/jenga-puzzle.jpg";
@@ -60,7 +60,7 @@ export const pictures: Record<string, Picture[]> = {
   "infinite-knot": [
     {
       image: knot,
-      file: "infinite-knot/cz-knot.jpg",
+      file: "infinite-knot/knot-caz.jpg",
       alt: "An endless knot painted in blue bands on a yellow wall beside a door, in dim light.",
     },
   ],

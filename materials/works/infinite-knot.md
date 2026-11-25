@@ -18,4 +18,4 @@ Drawing them became a kind of spiritual practice.
 
 The later *Identity Matrix* would follow a strange rule of its own.
 
-[Photograph](../assets/infinite-knot/cz-knot.jpg)
+[Photograph](../assets/infinite-knot/knot-caz.jpg)
