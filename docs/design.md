@@ -29,6 +29,7 @@ A reusable component is named after the code it mirrors, and its `context` field
 | `site-header`, `site-footer` | the markup in `app/layout.tsx`, styled in `app/globals.css` |
 | `Meta` | `components/Meta.tsx` |
 | `Picture` | `components/Picture.tsx` |
+| `Link` | the `a` rule in `app/globals.css` |
 | `Label` | the `Label` function in `app/page.tsx` |
 | `Prose` | the `.prose` rule in `app/globals.css` |
 
@@ -39,17 +40,21 @@ The editor refuses a variable reference there without an error, so `site-header`
 
 ## Pages
 
-A page is drawn only when a change needs one, in a temporary file that imports the library, and the file is deleted with the change.
-`design/<name>.pen` starts as:
+The site's pages are drawn in `design.pen`, at the repo root.
+It is a local working file that git ignores, and it imports the library:
 
 ```json
-{ "version": "2.25", "children": [], "imports": { "lib": "../design.lib.pen" } }
+{ "version": "2.25", "children": [], "imports": { "lib": "design.lib.pen" } }
 ```
 
 The `version` is the library's, and the import path is relative to the page file.
 In a page file a library component is `ref: "lib:<id>"`, a variable is `$lib:<name>`, and a work's colours are `theme: { "lib:work": "<slug>" }`.
 An unprefixed `work` there is ignored without an error.
-A page is drawn for a 1440px window, and narrower widths are checked in the running site.
+
+Each page is a frame named by its route, drawn as the site renders in a 1440×900 window; narrower widths are checked in the running site.
+A page is instances of the library's components, with plain frames and text only where the code has plain markup.
+Its text and pictures are the site's own, copied when the page was drawn.
+A change to a component's structure in the library changes the ids that instance overrides are keyed by, so a page's overrides on that component are re-keyed after one.
 
 ## Design to code
 
@@ -78,6 +83,9 @@ Give the run a time limit; macOS has no `timeout` command.
 - `Export(["<node-id>"], "png", "<dir>", { scale: 1 })` exports a frame.
   It takes node ids only, so `pen interactive` has no whole-file export.
 - Export before reading sizes or saving, since text is first measured before its font loads.
+- Edits and `Export` go in separate `execute` calls: an export in the same call as an insert draws all text at zero height.
+- A function defined in one `execute` call isn't available in the next.
+- A document-wide `Get` on a page file also visits the library's nodes, whose ids contain `:`; skip them.
 - After a save, read the JSON back and compare it with what was meant, since a refused write is silent.
 - A save with no change leaves the file byte for byte.
 - Compare the export with the running site (`pnpm dev`) in a 1440px window, by eye; a pixel or two is accepted.
@@ -86,13 +94,14 @@ Give the run a time limit; macOS has no `timeout` command.
 
 - No inline text runs: a link or italics inside a paragraph isn't drawn.
 - No text decoration: `underline: true` is in the schema but dropped on insert (CLI 0.3.18).
-  An underline is a 1px rectangle filled `$link`, in a frame of zero height pulled up under the text by a negative `gap`.
+  The `Link` component draws its underline as a 1px rectangle filled `$link`, in a frame of zero height pulled up under the text by a negative `gap`.
 - No margins: a margin in the code is padding on the frame that owns it.
 - No interaction states: the header's links, underlined on hover, are drawn plain.
 - Line height rounds to a whole pixel, so a text block runs about half a pixel per line taller than in Chrome.
 - Text renders lighter than in Chrome at the same weight.
 - Numbers are unit-free, and `fontWeight` is a string.
 - An image fill's `url` is relative to the `.pen` file and is saved without a leading `./`.
+- An SVG doesn't render as an image fill; JPG and PNG do.
 - Text copied from a page's `textContent` carries the markdown's line breaks, which Pen draws; collapse the whitespace first.
 - The CLI adds a `fileToken` field on a file's first save.
-- The "Collapsed size" warning on the `Link` frame inside `Label` is false: it renders at the width of its text.
+- The "Collapsed size" warning on `Link` and each of its instances is false: it renders at the width of its text.

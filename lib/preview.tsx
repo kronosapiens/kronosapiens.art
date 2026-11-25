@@ -10,7 +10,6 @@ export const contentType = "image/png";
 const types: Record<string, string> = {
   ".jpg": "image/jpeg",
   ".png": "image/png",
-  ".svg": "image/svg+xml",
 };
 
 async function source({ file }: Picture) {

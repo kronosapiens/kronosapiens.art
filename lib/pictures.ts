@@ -1,10 +1,10 @@
 import type { StaticImageData } from "next/image";
 import identityMatrix from "@/materials/assets/identity-matrix/identity-matrix.jpg";
-import knot from "@/materials/assets/infinite-knot/cz-knot.jpg";
-import pact from "@/materials/assets/ronins-pact/pact.svg";
+import knot from "@/materials/assets/infinite-knot/knot-caz.jpg";
+import pact from "@/materials/assets/ronins-pact/pact.png";
 import prince from "@/materials/assets/space-prince/prince-preview.png";
 import players from "@/materials/assets/the-lost-temple-adventure/jenga-puzzle.jpg";
-import map from "@/materials/assets/the-lost-temple-adventure/map.svg";
+import map from "@/materials/assets/the-lost-temple-adventure/map.png";
 import puzzle from "@/materials/assets/the-lost-temple-adventure/type-puzzle.jpg";
 
 export type Picture = {
@@ -29,7 +29,7 @@ export const pictures: Record<string, Picture[]> = {
   "the-lost-temple-adventure": [
     {
       image: map,
-      file: "the-lost-temple-adventure/map.svg",
+      file: "the-lost-temple-adventure/map.png",
       alt: "A parchment map with a temple between mountains at the top. A dashed route joins five numbered waypoints, each checked off, and the name kronosapiens is written in the corner.",
     },
     {
@@ -46,7 +46,7 @@ export const pictures: Record<string, Picture[]> = {
   "ronins-pact": [
     {
       image: pact,
-      file: "ronins-pact/pact.svg",
+      file: "ronins-pact/pact.png",
       alt: "Three pale blue swords on a red sword rack, on a ground that runs from black to indigo, with the name kronosapiens beneath.",
     },
   ],
@@ -60,7 +60,7 @@ export const pictures: Record<string, Picture[]> = {
   "infinite-knot": [
     {
       image: knot,
-      file: "infinite-knot/cz-knot.jpg",
+      file: "infinite-knot/knot-caz.jpg",
       alt: "An endless knot painted in blue bands on a yellow wall beside a door, in dim light.",
     },
   ],
