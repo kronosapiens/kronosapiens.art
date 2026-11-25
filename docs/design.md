@@ -15,7 +15,7 @@ Its text is placeholder, except the site's name and "About", so no text from `ma
 A change to a mirrored token or component updates the library in the same commit.
 
 Variables mirror the custom properties of `app/globals.css` by name: the property minus `--`, referenced as `$name`.
-`large` and `gutter` hold the value their `clamp()` takes in a 1440px window.
+`large`, `gutter` and `measure` hold the value they take in a 1440px window.
 Pen has no variable aliasing, so `link` holds a literal colour for every work, and follows `line` by hand in a block that leaves `--link` unset.
 
 The per-work colours are the `work` theme.
@@ -30,13 +30,13 @@ A reusable component is named after the code it mirrors, and its `context` field
 | `Meta` | `components/Meta.tsx` |
 | `Picture` | `components/Picture.tsx` |
 | `Link` | the `a` rule in `app/globals.css` |
-| `Label` | the `Label` function in `app/page.tsx` |
+| `Label` | the `Label` function in `components/Work.tsx` |
 | `Prose` | the `.prose` rule in `app/globals.css` |
 
 The `Components` frame holds the definitions, and the `Works` frame shows a header, a label and prose in each work's colours.
 
 Width and height take literal numbers.
-The editor refuses a variable reference there without an error, so `site-header` is 56 high and `Prose` 488 wide as literals.
+The editor refuses a variable reference there without an error, so `site-header` is 56 high and `Prose` 680 wide as literals.
 
 ## Pages
 

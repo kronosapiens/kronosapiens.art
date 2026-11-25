@@ -14,8 +14,12 @@
   margin-top: 2.5rem;
 }
 
+/* Further pictures, three squares to a row whatever their number. */
 .more {
-  display: flex;
+  --inset: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   max-width: 48rem;
   margin-top: 3.5rem;

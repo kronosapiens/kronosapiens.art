@@ -5,7 +5,7 @@ The quotations are his words from those conversations.
 
 ## Rules and beauty
 
-In *Infinite Knot* the form was already known and loved.
+In *Endless Knot* the form was already known and loved.
 The measured grid let Daniel make it again at the scale of a particular wall or door.
 In *Identity Matrix* the figures came by chance, and the rule came afterward.
 The pleasure there was in being able to “completely cover all of the ground of combinations in a single tight composition.”

@@ -1,8 +1,8 @@
-# Infinite Knot
+# Endless Knot
 
 *2009–2012 · Paint*
 
-*Infinite Knot* is a series of three murals, painted in three student co-op houses.
+*Endless Knot* is a series of three murals, painted in three student co-op houses.
 Each is a Tibetan Buddhist endless knot: one band that turns at right angles and passes over and under itself.
 
 The form is borrowed, and it is drawn by rule.
@@ -18,4 +18,4 @@ Drawing them became a kind of spiritual practice.
 
 The later *Identity Matrix* would follow a strange rule of its own.
 
-[Photograph](../assets/infinite-knot/knot-caz.jpg)
+[Photograph](../assets/endless-knot/knot-caz-lg.jpg)

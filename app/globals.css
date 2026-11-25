@@ -4,6 +4,7 @@
   --ink: #000;
   --line: #000;
   --link: var(--line);
+  --outline: #d4d4d4;
 
   --small: 0.9375rem;
   --body: 1.1875rem;
@@ -11,7 +12,8 @@
 
   --gutter: clamp(1.25rem, 3vw, 2.5rem);
   --header: 3.5rem;
-  --measure: 30.5rem;
+  /* Half the page, but never narrower than a comfortable line. */
+  --measure: max(30.5rem, 50%);
 }
 
 :root:has([data-work="space-prince"]) {
@@ -114,6 +116,11 @@ a {
 
 .site-header a:hover {
   text-decoration: underline;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
 }
 
 .site-name {

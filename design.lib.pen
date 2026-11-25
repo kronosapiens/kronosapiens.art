@@ -32,22 +32,42 @@
               "id": "yAUUX",
               "name": "site-name",
               "fill": "$ink",
-              "content": "Daniel Kronovet",
+              "content": "kronosapiens.art",
               "lineHeight": 1.5,
               "fontFamily": "$font-sans",
               "fontSize": "$body",
               "fontWeight": "500"
             },
             {
-              "type": "text",
-              "id": "jYlsh",
-              "name": "About",
-              "fill": "$ink",
-              "content": "About",
-              "lineHeight": 1.5,
-              "fontFamily": "$font-sans",
-              "fontSize": "$body",
-              "fontWeight": "normal"
+              "type": "frame",
+              "id": "O3X0q",
+              "name": "site-nav",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j3dcm",
+                  "name": "Works",
+                  "fill": "$ink",
+                  "content": "Works",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": "$body",
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "jYlsh",
+                  "name": "About",
+                  "fill": "$ink",
+                  "content": "About",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": "$body",
+                  "fontWeight": "normal"
+                }
+              ]
             }
           ]
         },
@@ -180,7 +200,7 @@
           "type": "frame",
           "id": "ltaPE",
           "name": "Label",
-          "context": "The Label function in app/page.tsx, styled in app/page.module.css: a work's title (a Link instance at weight 500), Meta, and blurb. Drawn 304 wide, as beside a picture (.work .label). A margin in the code is padding on the frame that owns it.",
+          "context": "The Label function in components/Work.tsx, styled in components/Work.module.css: a work's title (a Link instance at weight 500), Meta, and blurb. A margin in the code is padding on the frame that owns it.",
           "reusable": true,
           "width": 304,
           "layout": "vertical",
@@ -254,7 +274,7 @@
           "name": "Prose",
           "context": "The .prose rule in app/globals.css: paragraphs at $body, $measure wide, 0.9em apart.",
           "reusable": true,
-          "width": 488,
+          "width": 680,
           "layout": "vertical",
           "gap": 17.1,
           "children": [
@@ -677,11 +697,15 @@
     },
     "measure": {
       "type": "number",
-      "value": 488
+      "value": 680
     },
     "font-sans": {
       "type": "string",
       "value": "Jost"
+    },
+    "outline": {
+      "type": "color",
+      "value": "#d4d4d4"
     }
   },
   "fileToken": "82f4ec5e-ab68-42d1-ab83-fb8e084cd663"

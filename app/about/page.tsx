@@ -14,7 +14,7 @@ export default function About() {
   const { title, body } = statement();
   return (
     <main className={styles.page}>
-      <h1 className={styles.title}>{title}</h1>
+      <h1 className="visually-hidden">{title}</h1>
       <div className="prose">
         <Prose nodes={body} />
       </div>
