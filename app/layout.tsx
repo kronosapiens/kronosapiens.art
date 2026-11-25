@@ -28,9 +28,10 @@ export default function RootLayout({
       <body>
         <header className="site-header">
           <Link href="/" className="site-name">
-            {name}
+            {new URL(site.url).host}
           </Link>
-          <nav>
+          <nav className="site-nav">
+            <Link href="/works">Works</Link>
             <Link href="/about">About</Link>
           </nav>
         </header>

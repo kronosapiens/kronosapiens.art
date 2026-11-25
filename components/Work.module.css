@@ -1,0 +1,26 @@
+.title {
+  margin-bottom: 0.25rem;
+}
+
+.blurb {
+  max-width: 30rem;
+  margin-top: 0.75rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gutter);
+  align-items: start;
+  padding: 0 var(--gutter) clamp(5rem, 16vh, 10rem);
+}
+
+@media (max-width: 700px) {
+  .row {
+    display: block;
+  }
+
+  .row > :last-child {
+    margin-top: 1rem;
+  }
+}

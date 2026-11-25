@@ -1,36 +1,13 @@
-/*
- * Two pictures at equal height, touching.
- * They span the window unless that would push the captions off the first
- * screen; then the pair is capped in height and centered.
- */
+/* The first two works side by side, each label under its square. */
 .hero {
-  --cap: max(20rem, calc(100svh - var(--header) - 5.5rem));
-  --row: min(100vw, calc(var(--cap) * var(--sum)));
-  /* Captions line up with their picture, but never closer to the window edge
-     than the gutter. */
-  --inset: max(0px, calc(var(--gutter) - (100vw - var(--row)) / 2));
-
-  display: flex;
-  width: min(100%, calc(var(--cap) * var(--sum)));
-  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gutter);
+  padding-inline: var(--gutter);
 }
 
-.heroWork {
-  flex: var(--ratio) 1 0;
-  min-width: 0;
-}
-
-.label h2 {
-  margin-bottom: 0.25rem;
-}
-
-.blurb {
-  max-width: 30rem;
-  margin-top: 0.75rem;
-}
-
-.heroWork .label {
-  padding: 1rem var(--gutter) 0 var(--inset);
+.hero article > :last-child {
+  margin-top: 1rem;
 }
 
 .statement {
@@ -38,46 +15,16 @@
 }
 
 .statement p {
-  max-width: 21em;
   font-size: var(--large);
   line-height: 1.22;
-}
-
-/* The other works: the picture on the left, its label beside it. */
-.work {
-  --cap: 80svh;
-
-  display: flex;
-  gap: calc(var(--gutter) * 2);
-  align-items: start;
-  padding: 0 var(--gutter) clamp(5rem, 16vh, 10rem);
-}
-
-.work > a {
-  min-width: 0;
-}
-
-.work .label {
-  flex: 0 0 19rem;
-}
-
-@media (max-width: 800px) {
-  .work {
-    display: block;
-  }
-
-  .work .label {
-    margin-top: 1rem;
-  }
 }
 
 @media (max-width: 700px) {
   .hero {
     display: block;
-    width: auto;
   }
 
-  .heroWork .label {
-    padding: 1rem var(--gutter) 3.5rem;
+  .hero article {
+    padding-bottom: 3.5rem;
   }
 }

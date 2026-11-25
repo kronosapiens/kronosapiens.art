@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Meta } from "@/components/Meta";
 import { Picture } from "@/components/Picture";
 import { Prose } from "@/components/Prose";
+import { Square } from "@/components/Square";
 import { getWork, getWorks } from "@/lib/content";
 import { pictures } from "@/lib/pictures";
 import styles from "./page.module.css";
@@ -42,10 +43,10 @@ export default async function WorkPage({ params }: Props) {
       {more.length > 0 && (
         <div className={styles.more}>
           {more.map((picture) => (
-            <Picture
+            <Square
               key={picture.image.src}
               picture={picture}
-              sizes="(max-width: 800px) 50vw, 25rem"
+              sizes="(max-width: 800px) 33vw, 16rem"
             />
           ))}
         </div>

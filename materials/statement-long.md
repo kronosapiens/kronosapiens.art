@@ -5,7 +5,7 @@ A few rules do the arranging, and a person gets a feel for the system without ha
 The digital work uses technology to enchant the real world and leave a person with something worth keeping.
 
 The murals are the simplest case.
-*Infinite Knot* follows a borrowed rule, the Tibetan Buddhist endless knot, ruled through a grid of dots.
+*Endless Knot* follows a borrowed rule, the Tibetan Buddhist endless knot, ruled through a grid of dots.
 *Identity Matrix* follows a rule of its own: three stenciled figures in three pairings of color, all nine combinations in one grid, with no figure or pairing repeated in any row or column.
 The reference points are Sol LeWitt, who ran simple elements through every combination, and Kandinsky and Hilma af Klint for color and shape.
 

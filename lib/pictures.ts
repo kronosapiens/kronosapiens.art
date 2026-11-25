@@ -1,6 +1,9 @@
 import type { StaticImageData } from "next/image";
 import identityMatrix from "@/materials/assets/identity-matrix/identity-matrix.jpg";
-import knot from "@/materials/assets/infinite-knot/knot-caz.jpg";
+import knotAca from "@/materials/assets/endless-knot/knot-aca.jpg";
+import knot from "@/materials/assets/endless-knot/knot-caz-lg.jpg";
+import knotOriginal from "@/materials/assets/endless-knot/knot-caz.jpg";
+import knotUry from "@/materials/assets/endless-knot/knot-ury.jpg";
 import pact from "@/materials/assets/ronins-pact/pact.png";
 import prince from "@/materials/assets/space-prince/prince-preview.png";
 import players from "@/materials/assets/the-lost-temple-adventure/jenga-puzzle.jpg";
@@ -57,11 +60,26 @@ export const pictures: Record<string, Picture[]> = {
       alt: "A three-by-three grid of stenciled figures in orange, fuchsia, and teal on a white wall, between barred windows and a line of laundry.",
     },
   ],
-  "infinite-knot": [
+  "endless-knot": [
     {
       image: knot,
-      file: "infinite-knot/knot-caz.jpg",
+      file: "endless-knot/knot-caz-lg.jpg",
       alt: "An endless knot painted in blue bands on a yellow wall beside a door, in dim light.",
+    },
+    {
+      image: knotOriginal,
+      file: "endless-knot/knot-caz.jpg",
+      alt: "The original, unenhanced photograph of the blue endless knot on a yellow wall beside a door, darker and less sharp.",
+    },
+    {
+      image: knotAca,
+      file: "endless-knot/knot-aca.jpg",
+      alt: "A person in a black coat and patterned tie stands in a co-op kitchen set with trays of empanadas. A small blue endless knot is painted high on the wall behind them. Their face is pixelated.",
+    },
+    {
+      image: knotUry,
+      file: "endless-knot/knot-ury.jpg",
+      alt: "Two people crouch at a white brick wall beside some steps, painting an endless knot in green.",
     },
   ],
 };

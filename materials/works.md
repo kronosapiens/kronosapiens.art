@@ -36,7 +36,7 @@ It starts as a picture of an empty sword rack with the player’s name under it,
 Three figures found in a page of doodles, stenciled on a rooftop wall in every pairing of three colors.
 No figure and no pairing repeats in any row or column of the three-by-three grid.
 
-## [Infinite Knot](works/infinite-knot.md)
+## [Endless Knot](works/endless-knot.md)
 
 *2009–2012 · Paint*
 

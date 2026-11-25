@@ -5,7 +5,7 @@ Daniel Kronovet on painting a knot in a Berkeley stairwell, running a scavenger 
 *The questions from Codex have been shortened, and Daniel’s answers have been lightly edited for grammar and length.*
 *[Read the verbatim conversation.](portfolio-conversation.md)*
 
-## Infinite Knot
+## Endless Knot
 
 **Codex** — Take me back to the yellow door in 2009.
 What drew you to that particular knot, and how did you come to paint it there?

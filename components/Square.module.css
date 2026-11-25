@@ -1,0 +1,13 @@
+/* The margin inside the outline is --inset, the gutter unless set. */
+.square {
+  container-type: inline-size;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  padding: var(--inset, var(--gutter));
+  border: 1px solid var(--outline);
+}
+
+.square > * {
+  --cap: 100cqi;
+}

@@ -61,7 +61,7 @@ Two pairs from the first draft and the approved text:
 > Before: The method began with a borrowed rule.
 > In 2009 Kronovet painted a Tibetan Buddhist endless knot on a door in his Berkeley student co-op: one band, ruled through a grid of dots, passing over and under itself.
 >
-> After: *Infinite Knot* follows a borrowed rule, the Tibetan Buddhist endless knot, ruled through a grid of dots.
+> After: *Endless Knot* follows a borrowed rule, the Tibetan Buddhist endless knot, ruled through a grid of dots.
 
 > Before: A game ends, and Kronovet’s next question is what the player takes away.
 >
