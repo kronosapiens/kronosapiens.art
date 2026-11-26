@@ -16,7 +16,7 @@ Once there might be something to find anywhere, people start looking everywhere,
 
 People put dozens of hours into a game, and the only record is a save file that nobody looks at.
 Where does that energy go?
-Generative artists like Matt DesLauriers and Erick Calderon write programs that give each collector a one-of-a-kind image, chosen by a random number.
+Generative artists like [Matt DesLauriers](https://www.mattdesl.com/) and [Erick Calderon](https://www.artblocks.io/) write programs that give each collector a one-of-a-kind image, chosen by a random number.
 Daniel’s addition is to let play decide the image, so that the save file is the artwork.
 In *Ronin’s Pact* it is a sword rack that gains a sword for each trial, and in *The Lost Temple Adventure* a map that draws its route as puzzles are solved.
 Both are kept on a blockchain, so the picture belongs to the player.
