@@ -14,7 +14,7 @@ export default function Works() {
     <main className={styles.page}>
       <h1 className="visually-hidden">Works</h1>
       {getWorks().map((work, i) => (
-        <WorkRow key={work.slug} work={work} preload={i === 0} />
+        <WorkRow key={work.slug} work={work} preload={i === 0} compact />
       ))}
     </main>
   );
