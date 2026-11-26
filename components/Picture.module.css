@@ -8,6 +8,14 @@
   height: auto;
 }
 
+/* The frame is a button when the picture opens in a modal. */
+button.frame {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
 .frame:focus-visible {
   outline-offset: -4px;
 }

@@ -29,6 +29,7 @@ A reusable component is named after the code it mirrors, and its `context` field
 | `site-header`, `site-footer` | the markup in `app/layout.tsx`, styled in `app/globals.css` |
 | `Meta` | `components/Meta.tsx` |
 | `Picture` | `components/Picture.tsx` |
+| `Square` | `components/Square.tsx` |
 | `Link` | the `a` rule in `app/globals.css` |
 | `Label` | the `Label` function in `components/Work.tsx` |
 | `Prose` | the `.prose` rule in `app/globals.css` |

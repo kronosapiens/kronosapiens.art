@@ -23,11 +23,15 @@ export type Work = WorkSummary & {
   links: { label: string; url: string }[];
 };
 
-/** Top-level nodes of a materials file, without its HTML comments. */
-function read(file: string): RootContent[] {
-  const source = fs.readFileSync(path.join(materials, file), "utf8");
+/** Top-level nodes of markdown, without its HTML comments. */
+export function parse(source: string): RootContent[] {
   const tree = unified().use(remarkParse).parse(source);
   return tree.children.filter((node) => node.type !== "html");
+}
+
+/** The nodes of a materials file. */
+function read(file: string) {
+  return parse(fs.readFileSync(path.join(materials, file), "utf8"));
 }
 
 /** The source puts each sentence on its own line; join them for plain text. */

@@ -152,6 +152,31 @@
         },
         {
           "type": "frame",
+          "id": "wEMU8",
+          "name": "Square",
+          "context": "components/Square.tsx, styled in components/Square.module.css: a picture, whole and centered in an outlined square. The padding is --inset, $gutter unless the code sets it. An instance sets its width and height, its padding where the code sets --inset, and the Picture's width, height and image.",
+          "reusable": true,
+          "width": 660,
+          "height": 660,
+          "stroke": "$outline",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "padding": "$gutter",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "d84ygK",
+              "type": "ref",
+              "ref": "SVloK",
+              "name": "Picture",
+              "width": 580,
+              "height": 580
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "JWeSu",
           "name": "Link",
           "context": "The a rule in app/globals.css: a link in the colour of its text, underlined in $link. The underline is a 1px rule in $link, 4px under the baseline, in a frame of zero height. An instance sets the text, and its weight where the code sets one.",

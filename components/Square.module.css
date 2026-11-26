@@ -1,5 +1,6 @@
 /* The margin inside the outline is --inset, the gutter unless set. */
 .square {
+  position: relative;
   container-type: inline-size;
   display: grid;
   place-items: center;
@@ -10,4 +11,11 @@
 
 .square > * {
   --cap: 100cqi;
+}
+
+/* A picture that opens in a modal takes clicks anywhere in its square. */
+.square > button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
