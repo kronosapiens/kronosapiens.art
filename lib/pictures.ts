@@ -111,7 +111,7 @@ export const pictures: Record<string, Picture[]> = {
       image: knotAca,
       file: "endless-knot/knot-aca.jpg",
       alt: "A person in a black coat and patterned tie stands in a co-op kitchen set with trays of empanadas. A small blue endless knot is painted high on the wall behind them. Their face is pixelated.",
-      caption: "Special Dinner at the Andres Castro Arms co-op, Spring 2011. The endless knot is visible above the kitchen entryway.",
+      caption: "Special Dinner at the [Andres Castro Arms](https://www.youtube.com/watch?v=--B0uBXskZ0) co-op, Spring 2011. The endless knot is visible above the kitchen entryway.",
     },
     {
       image: knotUry,

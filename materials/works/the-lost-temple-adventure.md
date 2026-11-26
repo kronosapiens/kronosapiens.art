@@ -2,7 +2,7 @@
 
 *2025 · Onchain game and in-person treasure hunt*
 
-*The Lost Temple Adventure* is a treasure hunt that ran for a week at the Devconnect conference in Buenos Aires.
+*The Lost Temple Adventure* is a treasure hunt that ran for a week at the [Devconnect](https://devconnect.org/) conference in Buenos Aires.
 The artwork is the experience of the player, and the memories of exploration and discovery they make along the way.
 
 Flyers asked, “Can you find the Lost Temple?”
@@ -13,8 +13,8 @@ Two were games by other makers.
 Each waypoint reached drew more of the route.
 The map is the save file, kept by a blockchain contract so that it belongs to the player as a permanent collectible.
 
-The technique was borrowed from the treasure hunts of Social Dist0rtion Protocol and Daedalus Industries.
-The craft was in putting the map onchain: Alex Cohen’s original drawings, and a shuffling of the waypoints for each player’s map.
+The technique was borrowed from the treasure hunts of [Social Dist0rtion Protocol](https://www.dist0rtion.com/) and [Daedalus Industries](https://daedalus.industries/).
+The craft was in putting the map onchain: [Alex Cohen](https://studiomacon.co/)’s original drawings, and a shuffling of the waypoints for each player’s map.
 
 Of 106 players who started a map, 26 solved a puzzle and 4 reached the temple.
 

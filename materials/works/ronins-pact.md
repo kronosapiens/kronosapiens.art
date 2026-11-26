@@ -11,7 +11,7 @@ The player acquires a token from another game, passes a short quiz, and takes a 
 The picture is the record of the game, so the collectible is also the save file.
 Another game can read it.
 
-The drawings are by Alex Cohen, compressed to fit the contract.
+The drawings are by [Alex Cohen](https://studiomacon.co/), compressed to fit the contract.
 The finished picture, drawn entirely onchain, weighs about 30 kilobytes.
 
 Thirty-seven players started a Pact, and twenty finished.
