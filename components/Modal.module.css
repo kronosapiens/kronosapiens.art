@@ -1,0 +1,56 @@
+/*
+ * The modal is a panel over the dimmed page.
+ * It is as wide as its picture, and at least as wide as a line of prose,
+ * so that a caption under a narrow picture stays short.
+ * The picture is as tall as the window allows once the panel's margin,
+ * its close button and its caption have their room.
+ */
+.modal {
+  --tall: calc(100svh - 2 * var(--gutter) - 9rem);
+
+  width: min(
+    calc(100vw - 2 * var(--gutter)),
+    calc(
+      max(var(--measure), min(var(--tall) * var(--ratio), var(--pixels))) +
+        2rem
+    )
+  );
+  max-width: none;
+  max-height: calc(100svh - 2rem);
+  padding: 0;
+  border: 0;
+  background: var(--ground);
+  color: var(--ink);
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.6);
+}
+
+.panel {
+  --cap: var(--tall);
+
+  display: grid;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.close {
+  justify-self: end;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-size: var(--small);
+  cursor: pointer;
+}
+
+/* Centered under the picture, in lines of even length. */
+.caption {
+  padding-top: 0.75rem;
+  font-size: var(--small);
+  text-align: center;
+  text-wrap: balance;
+}

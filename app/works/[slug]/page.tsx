@@ -33,6 +33,7 @@ export default async function WorkPage({ params }: Props) {
       <Picture
         picture={main}
         sizes="(max-width: 800px) 100vw, 70vw"
+        modal
         preload
       />
       <h1 className={styles.title}>{work.title}</h1>
@@ -47,6 +48,7 @@ export default async function WorkPage({ params }: Props) {
               key={picture.image.src}
               picture={picture}
               sizes="(max-width: 800px) 33vw, 16rem"
+              modal
             />
           ))}
         </div>
