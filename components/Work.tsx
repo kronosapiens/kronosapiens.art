@@ -7,14 +7,15 @@ import { pictures } from "@/lib/pictures";
 import styles from "./Work.module.css";
 
 type Props = { work: WorkSummary };
+type RowProps = Props & { preload?: boolean; compact?: boolean };
 
 /** A work's first picture in its square, linking to the work's page. */
-export function WorkSquare({ work, preload }: Props & { preload?: boolean }) {
+export function WorkSquare({ work, preload, compact }: RowProps) {
   return (
     <Square
       picture={pictures[work.slug][0]}
       href={`/works/${work.slug}`}
-      sizes="(max-width: 700px) 100vw, 45vw"
+      sizes={compact ? "17rem" : "(max-width: 700px) 100vw, 45vw"}
       preload={preload}
     />
   );
@@ -35,12 +36,13 @@ export function Label({ work }: Props) {
   );
 }
 
-/** A work as a row: its square on the left, its label from the middle. */
-export function WorkRow({ work, preload }: Props & { preload?: boolean }) {
+/** A work's square beside its label, with a smaller square in the Works index. */
+export function WorkRow(props: RowProps) {
+  const className = props.compact ? `${styles.row} ${styles.compact}` : styles.row;
   return (
-    <article className={styles.row}>
-      <WorkSquare work={work} preload={preload} />
-      <Label work={work} />
+    <article className={className}>
+      <WorkSquare {...props} />
+      <Label work={props.work} />
     </article>
   );
 }

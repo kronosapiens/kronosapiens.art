@@ -2,21 +2,22 @@
 
 *2025 · Onchain game*
 
-*Ronin’s Pact* is a website and a blockchain contract letting a player craft their own digital collectible.
-It starts as a picture of an empty sword rack, with the player’s name under it.
+*Ronin’s Pact* begins with the player’s name beneath an empty sword rack.
+The trial of technique checks for a token from another game.
+If the player holds one, a sword appears on the rack.
 
-Three trials, of technique, wisdom, and spirit, each place a sword on the rack.
-The player acquires a token from another game, passes a short quiz, and takes a vow after a day of contemplation.
+A short quiz earns the sword for wisdom.
+The trial of spirit asks for a day of contemplation and a vow the player can take anywhere.
+One player asked to take their vow at a medieval shrine in Kyoto.
 
-The picture is the record of the game, so the collectible is also the save file.
-Another game can read it.
+The player keeps the picture as a digital collectible.
+It is also the save file.
+The blockchain contract that draws the swords lets another game read which trials the player has passed.
 
 The drawings are by [Alex Cohen](https://studiomacon.co/), compressed to fit the contract.
 The finished picture, drawn entirely onchain, weighs about 30 kilobytes.
 
 Thirty-seven players started a Pact, and twenty finished.
-It can be played anywhere.
-One player asked to take their vow at a medieval shrine in Kyoto.
 
 In *The Lost Temple Adventure*, the save file is a map.
 

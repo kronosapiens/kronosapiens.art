@@ -3,18 +3,18 @@
 *2025 · Onchain game and in-person treasure hunt*
 
 *The Lost Temple Adventure* is a treasure hunt that ran for a week at the [Devconnect](https://devconnect.org/) conference in Buenos Aires.
-The artwork is the experience of the player, and the memories of exploration and discovery they make along the way.
-
 Flyers asked, “Can you find the Lost Temple?”
-Scanning one put a map on the player’s phone: five waypoints below a temple.
-Three were puzzles to find in the venue: a Super Nintendo, Pokémon cards, and a game of Jenga against someone nearby.
-Two were games by other makers.
+Scanning one put a map on the player’s phone, with five waypoints below a temple.
 
-Each waypoint reached drew more of the route.
-The map is the save file, kept by a blockchain contract so that it belongs to the player as a permanent collectible.
+Two waypoints led to games by other makers.
+The other three sent players looking for a Super Nintendo, Pokémon cards, and someone to play Jenga with.
+At the Jenga table, the winner asked the organizer for the codeword, COLLAPSE.
 
-The technique was borrowed from the treasure hunts of [Social Dist0rtion Protocol](https://www.dist0rtion.com/) and [Daedalus Industries](https://daedalus.industries/).
-The craft was in putting the map onchain: [Alex Cohen](https://studiomacon.co/)’s original drawings, and a shuffling of the waypoints for each player’s map.
+Each solution drew another stretch of the route.
+The map doubled as the save file, so when the hunt was over, players kept a picture of the route they had taken.
+
+The design draws on treasure hunts by [Social Dist0rtion Protocol](https://www.dist0rtion.com/) and [Daedalus Industries](https://daedalus.industries/).
+A blockchain contract draws the map from [Alex Cohen](https://studiomacon.co/)’s artwork, shuffling the waypoints for each player.
 
 Of 106 players who started a map, 26 solved a puzzle and 4 reached the temple.
 
