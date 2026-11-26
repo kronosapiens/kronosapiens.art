@@ -1,6 +1,6 @@
 ---
 name: portfolio-writing
-description: Write or revise prose for Daniel Kronovet's artist portfolio in this repo — the artist statement, work pages and blurbs, a bio, or application text. Use whenever drafting, editing, shortening, or reviewing anything under materials/ or any text about the artworks, so the voice, the facts, and the align-before-drafting process stay consistent.
+description: Draft, edit, shorten, or review prose for Daniel Kronovet’s portfolio, including artist statements, work pages and blurbs, captions, a bio, or application text.
 ---
 
 # Portfolio Writing
@@ -13,7 +13,7 @@ What he says in the current conversation overrides anything here.
 
 He asked to "discuss the statement in the chat before you draft, so we can align on what we are trying to say and what tone we want to strike."
 
-1. Ask one round of questions before writing anything:
+1. Before drafting, ask one round of questions about the choices still open.
    - What is the piece for, who reads it, and how long should it be?
    - Should a sentence of his own open it or appear in it?
      Quote the sentence back to confirm which one he means.
@@ -118,16 +118,17 @@ grep -n "Kronovet" "$f" | grep -v "Daniel Kronovet"  # surname alone; should pri
 - Report the real word count, and after a cut, list what went.
 - Check a photograph for location data, and remove it, before adding it to `materials/assets/`.
 
-## The Artist Commons guides
+## Reviewing a statement
 
-He treats these course slides as the standard: `~/Dropbox/Documents/Art/Artist Commons/`, files `133`, `137`, and `140` on artist statements and `113` on portfolios, readable with `pdftotext -layout`.
-Paraphrase them and do not paste passages into this repo, which is pushed to GitHub.
-In brief, they ask for this:
+After reading the statement, go back to a work it names.
+What can the reader now notice in it?
+Trace the statement’s main idea from a visible detail or a participant’s action to what that detail might mean and why someone else might care.
+Give the reason for a technical choice before describing how it works, and leave the viewer room to draw their own conclusion.
 
-- Have a thesis, and answer three questions: what is it, what might it mean, and why does it matter beyond the artist.
-- Put the why before the how, keep the how short, and be concrete, most of all in the first paragraph.
-- Do not tell the viewer what to feel, write only for insiders, make grandiose claims, or quote and compare yourself to famous artists.
-- In a portfolio, show who the artist is today, write toward the decision the reader has to make, and let older work read as part of the same path.
+If the draft loses focus, find the sentence Daniel most wants the reader to remember and try the passage with that sentence first.
+Read it aloud and mark where the reader has to hold an abstract claim too long before meeting an example.
+Preserve Daniel’s own opening, third-person voice and chosen reference points when applying these exercises.
 
-Where the guides and his decisions conflict, his decision wins.
-The statement opens on his own general sentence in an "X and Y" shape, avoids "I" although the guides say to write personally, and names reference points although the guides warn against comparing yourself to the greats.
+For exercises and slide locations, see the [Artist Commons statement notes](../../../docs/artist-commons.md#artist-statements).
+Paraphrase course material in this public repo.
+For decisions about which works and images to show together, use [artist-website](../artist-website/SKILL.md).
