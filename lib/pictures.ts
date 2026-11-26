@@ -6,7 +6,11 @@ import knotOriginal from "@/materials/assets/endless-knot/knot-caz.jpg";
 import knotUry from "@/materials/assets/endless-knot/knot-ury.jpg";
 import pactGif from "@/materials/assets/ronins-pact/pact.gif";
 import pact from "@/materials/assets/ronins-pact/pact.png";
-import prince from "@/materials/assets/space-prince/prince-preview.png";
+import eleventhHouse from "@/materials/assets/space-prince/eleventh-house.webp";
+import encounter from "@/materials/assets/space-prince/encounter.webp";
+import prince151 from "@/materials/assets/space-prince/prince-151-stars.png";
+import prince235 from "@/materials/assets/space-prince/prince-235-stars.png";
+import prince63 from "@/materials/assets/space-prince/prince-63-stars.png";
 import players from "@/materials/assets/the-lost-temple-adventure/jenga-puzzle.jpg";
 import mapGif from "@/materials/assets/the-lost-temple-adventure/map.gif";
 import map from "@/materials/assets/the-lost-temple-adventure/map.png";
@@ -48,10 +52,34 @@ const finishedPact: Picture = {
 export const pictures: Record<string, Picture[]> = {
   "space-prince": [
     {
-      image: prince,
-      file: "space-prince/prince-preview.png",
+      image: prince151,
+      file: "space-prince/prince-151-stars.png",
       alt: "A birth chart on a black ground: seven colored planets inside a gold ring of zodiac signs, joined by red and green lines, with a field of stars above.",
       caption: "A sample Prince NFT, generated from a random chart and game state.",
+    },
+    {
+      image: encounter,
+      file: "space-prince/encounter.webp",
+      alt: "Two circular charts labeled Self and Other. On the right, red and green lines meet at Jupiter beneath the words “Jupiter testifies 36.”",
+      caption: "The other chart shows its move first. Jupiter testifies, and the player chooses which of their own planets will answer.",
+    },
+    {
+      image: eleventhHouse,
+      file: "space-prince/eleventh-house.webp",
+      alt: "A birth chart beside a scene in the Eleventh House. Four choices list what a visit to a pool will cost and which planets it will ease.",
+      caption: "In the Eleventh House, a short visit to the pool with friends costs 24 Light. The player can also leave the water for the others.",
+    },
+    {
+      image: prince63,
+      file: "space-prince/prince-63-stars.png",
+      alt: "A birth chart on a black ground with most of its seven planets in the upper half of the gold ring, and a thin scatter of stars above.",
+      caption: "A second sample: a different chart, with 63 stars above it, one for each run.",
+    },
+    {
+      image: prince235,
+      file: "space-prince/prince-235-stars.png",
+      alt: "A birth chart on a black ground with Mars alone at the top of the gold ring and the other six along the lower right, under a sky crowded with stars.",
+      caption: "A third sample, with 235 stars above its chart.",
     },
   ],
   "the-lost-temple-adventure": [
