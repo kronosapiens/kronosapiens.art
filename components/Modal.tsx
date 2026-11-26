@@ -2,11 +2,15 @@
 
 import {
   type CSSProperties,
+  type KeyboardEvent,
   type MouseEvent,
   type ReactNode,
   useRef,
 } from "react";
 import styles from "./Modal.module.css";
+
+/** How far each arrow key steps through the page's pictures. */
+const steps: Record<string, number> = { ArrowLeft: -1, ArrowRight: 1 };
 
 type Props = {
   /** The look of the button that opens the modal, and what it shows. */
@@ -27,6 +31,16 @@ export function Modal({ className, style, trigger, children, caption }: Props) {
   const closeOnBackdrop = (event: MouseEvent) => {
     if (event.target === event.currentTarget) close();
   };
+  // An arrow key opens the picture before or after this one on the page,
+  // going round from the last to the first.
+  const step = (event: KeyboardEvent<HTMLDialogElement>) => {
+    const by = steps[event.key];
+    if (!by) return;
+    const all = [...document.querySelectorAll("dialog")];
+    const here = all.indexOf(event.currentTarget);
+    close();
+    all[(here + by + all.length) % all.length].showModal();
+  };
 
   return (
     <>
@@ -43,6 +57,7 @@ export function Modal({ className, style, trigger, children, caption }: Props) {
         className={styles.modal}
         style={style}
         onClick={closeOnBackdrop}
+        onKeyDown={step}
       >
         <div className={styles.panel}>
           <button type="button" className={styles.close} onClick={close}>
