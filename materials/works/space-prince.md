@@ -28,7 +28,7 @@ Every run leaves one star in the sky above the chart, bright or dim by the Light
 The player keeps the picture: the save file turned art object.
 A dim star is a memory too.
 
-[Preview picture](../assets/space-prince/prince-preview.png) · [Playable demo](https://space-prince.vercel.app) · [Website](https://spaceprince.xyz) · [Source code](https://github.com/kronosapiens/SpacePrince)
+[Preview picture](../assets/space-prince/prince-151-stars.png) · [Playable demo](https://space-prince.vercel.app) · [Website](https://spaceprince.xyz) · [Source code](https://github.com/kronosapiens/SpacePrince)
 
 <!--
 Technical details, read from the game repository and the demo on 2026-11-23.
@@ -39,6 +39,7 @@ The game is designed for Starknet: the chart-derivation contract exists, and the
 About a dollar a run is the intended price, not a measured cost.
 A run crosses up to seven maps, each generated as the player reaches it.
 The 720 scenes are five for each of the 144 pairings of house and sign.
-The preview picture comes from the demo’s /token screen, which draws a made-up Prince on each load, so it is not a record of play.
+The three sample Prince NFTs come from the demo’s /token screen, which draws a made-up Prince on each load.
+The gameplay stills come from `img/screenshots/encounter.webp` and `img/screenshots/eleventh-house.webp` in the game repository.
 Hesse’s Siddhartha is a Brahmin’s son, not a prince, so the page says “a man”.
 -->

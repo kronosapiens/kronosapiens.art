@@ -17,6 +17,7 @@ export default function About() {
       <h1 className="visually-hidden">{title}</h1>
       <div className="prose">
         <Prose nodes={body} />
+        <p>kronovet at gmail dot com</p>
       </div>
     </main>
   );
