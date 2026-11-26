@@ -129,6 +129,6 @@ If the draft loses focus, find the sentence Daniel most wants the reader to reme
 Read it aloud and mark where the reader has to hold an abstract claim too long before meeting an example.
 Preserve Daniel’s own opening, third-person voice and chosen reference points when applying these exercises.
 
-For exercises and slide locations, see the [Artist Commons statement notes](../../../docs/artist-commons.md#artist-statements).
+For a worked example and an exercise to try with a reader, use the [Artist Commons statement notes](../../../docs/artist-commons.md#artist-statements).
 Paraphrase course material in this public repo.
 For decisions about which works and images to show together, use [artist-website](../artist-website/SKILL.md).

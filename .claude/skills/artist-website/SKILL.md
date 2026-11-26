@@ -48,4 +48,4 @@ Trace the next step that matters for this visitor, whether that is seeing a rela
 Report where the path succeeds or breaks, with the page, image or missing information that accounts for it.
 
 For new or revised prose, use [portfolio-writing](../portfolio-writing/SKILL.md).
-For the course sources on selection, sequencing and documentation, see the [Artist Commons portfolio notes](../../../docs/artist-commons.md#portfolio-selection-and-documentation).
+For exercises in selecting a body of work, testing its order and choosing documentation, use the [Artist Commons portfolio notes](../../../docs/artist-commons.md#portfolio-selection-and-documentation).
