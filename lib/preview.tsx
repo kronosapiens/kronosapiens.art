@@ -24,8 +24,10 @@ async function source({ file }: Picture) {
  * The image shown when a page is shared as a link:
  * the pictures side by side at equal height, touching, uncropped,
  * as large as the frame allows and centered on white.
+ * A picture that moves is drawn as its still.
  */
-export async function preview(pictures: Picture[]) {
+export async function preview(moving: Picture[]) {
+  const pictures = moving.map((picture) => picture.still ?? picture);
   const ratios = pictures.map(({ image }) => image.width / image.height);
   const sum = ratios.reduce((total, ratio) => total + ratio, 0);
   const height = Math.min(size.height, size.width / sum);

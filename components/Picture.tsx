@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { getImageProps } from "next/image";
 import Link from "next/link";
 import type { CSSProperties } from "react";
 import { Modal } from "@/components/Modal";
@@ -25,12 +25,28 @@ type Props = {
  * and it never displays wider than its pixels.
  */
 export function Picture({ picture, sizes, href, modal, preload }: Props) {
-  const { image, alt, caption } = picture;
+  const { image, alt, caption, still } = picture;
   const style = {
     "--ratio": image.width / image.height,
     "--pixels": `${image.width}px`,
   } as CSSProperties;
-  const img = <Image src={image} alt={alt} sizes={sizes} preload={preload} />;
+  // A picture that moves is served as it is, since Next does not resize one,
+  // and gives way to its still for a visitor who asks for less motion.
+  const img = still ? (
+    <picture>
+      <source
+        media="(prefers-reduced-motion: reduce)"
+        srcSet={getImageProps({ src: still.image, alt, sizes }).props.srcSet}
+        sizes={sizes}
+      />
+      <img
+        {...getImageProps({ src: image, alt, unoptimized: true, preload }).props}
+        alt={alt}
+      />
+    </picture>
+  ) : (
+    <Image src={image} alt={alt} sizes={sizes} preload={preload} />
+  );
 
   if (modal) {
     return (

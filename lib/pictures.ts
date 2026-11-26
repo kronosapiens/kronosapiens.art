@@ -4,9 +4,11 @@ import knotAca from "@/materials/assets/endless-knot/knot-aca.jpg";
 import knot from "@/materials/assets/endless-knot/knot-caz-lg.jpg";
 import knotOriginal from "@/materials/assets/endless-knot/knot-caz.jpg";
 import knotUry from "@/materials/assets/endless-knot/knot-ury.jpg";
+import pactGif from "@/materials/assets/ronins-pact/pact.gif";
 import pact from "@/materials/assets/ronins-pact/pact.png";
 import prince from "@/materials/assets/space-prince/prince-preview.png";
 import players from "@/materials/assets/the-lost-temple-adventure/jenga-puzzle.jpg";
+import mapGif from "@/materials/assets/the-lost-temple-adventure/map.gif";
 import map from "@/materials/assets/the-lost-temple-adventure/map.png";
 import puzzle from "@/materials/assets/the-lost-temple-adventure/type-puzzle.jpg";
 
@@ -17,10 +19,30 @@ export type Picture = {
   alt: string;
   /** Markdown shown beneath the picture when it is opened in a modal. */
   caption: string;
+  /**
+   * For a picture that moves, the still shown in its place:
+   * in a link preview, and to a visitor who asks for less motion.
+   */
+  still?: Picture;
 };
 
 /** The two works shown side by side at the top of the home page. */
 export const hero = ["identity-matrix", "space-prince"];
+
+/** The finished tokens: each stands in for its animation, and follows it in the gallery. */
+const finishedMap: Picture = {
+  image: map,
+  file: "the-lost-temple-adventure/map.png",
+  alt: "A parchment map with a temple between mountains at the top. A dashed route joins five numbered waypoints, each checked off, and the name kronosapiens is written in the corner.",
+  caption: "A finished map: all five waypoints reached, drawn by the contract.",
+};
+
+const finishedPact: Picture = {
+  image: pact,
+  file: "ronins-pact/pact.png",
+  alt: "Three pale blue swords on a red sword rack, on a ground that runs from black to indigo, with the name kronosapiens beneath.",
+  caption: "A finished Pact: all three swords on the rack, drawn by the contract.",
+};
 
 /** Each work's pictures by slug. The first is the one shown on the home page. */
 export const pictures: Record<string, Picture[]> = {
@@ -34,11 +56,13 @@ export const pictures: Record<string, Picture[]> = {
   ],
   "the-lost-temple-adventure": [
     {
-      image: map,
-      file: "the-lost-temple-adventure/map.png",
-      alt: "A parchment map with a temple between mountains at the top. A dashed route joins five numbered waypoints, each checked off, and the name kronosapiens is written in the corner.",
-      caption: "A finished map: all five waypoints reached, drawn by the contract.",
+      image: mapGif,
+      file: "the-lost-temple-adventure/map.gif",
+      alt: "An animated parchment map with a temple between mountains at the top and the name kronosapiens in the corner. Five numbered waypoints are checked off one at a time, a dashed route joins each to the last, and the temple glows when all five are reached.",
+      caption: "A map from start to finish, drawn by the contract: each waypoint reached adds to the route.",
+      still: finishedMap,
     },
+    finishedMap,
     {
       image: puzzle,
       file: "the-lost-temple-adventure/type-puzzle.jpg",
@@ -54,11 +78,13 @@ export const pictures: Record<string, Picture[]> = {
   ],
   "ronins-pact": [
     {
-      image: pact,
-      file: "ronins-pact/pact.png",
-      alt: "Three pale blue swords on a red sword rack, on a ground that runs from black to indigo, with the name kronosapiens beneath.",
-      caption: "A finished Pact: all three swords on the rack, drawn by the contract.",
+      image: pactGif,
+      file: "ronins-pact/pact.gif",
+      alt: "An animated picture of a red sword rack on a ground that runs from black to indigo, with the name kronosapiens beneath. Three pale blue swords appear on it one at a time, and the base of the rack glows magenta once the third is in place.",
+      caption: "A Pact from start to finish, drawn by the contract: each trial places a sword on the rack.",
+      still: finishedPact,
     },
+    finishedPact,
   ],
   "identity-matrix": [
     {
