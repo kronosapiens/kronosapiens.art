@@ -12,3 +12,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 `design.lib.pen` mirrors the site's tokens and components in Pen.
 Read `docs/design.md` before changing the site's look or editing a `.pen` file.
+
+## Portfolio
+
+Use [artist-website](.claude/skills/artist-website/SKILL.md) when choosing which works and images to show or reviewing how a visitor moves through the site.
+Use [portfolio-writing](.claude/skills/portfolio-writing/SKILL.md) when drafting or reviewing the words that accompany the work.
